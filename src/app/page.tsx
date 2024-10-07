@@ -1,101 +1,87 @@
-import Image from "next/image";
-
 export default function Home() {
-  return (
-    <div className="grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20 font-[family-name:var(--font-geist-sans)]">
-      <main className="flex flex-col gap-8 row-start-2 items-center sm:items-start">
-        <Image
-          className="dark:invert"
-          src="https://nextjs.org/icons/next.svg"
-          alt="Next.js logo"
-          width={180}
-          height={38}
-          priority
-        />
-        <ol className="list-inside list-decimal text-sm text-center sm:text-left font-[family-name:var(--font-geist-mono)]">
-          <li className="mb-2">
-            Get started by editing{" "}
-            <code className="bg-black/[.05] dark:bg-white/[.06] px-1 py-0.5 rounded font-semibold">
-              src/app/page.tsx
-            </code>
-            .
-          </li>
-          <li>Save and see your changes instantly.</li>
-        </ol>
+  const groupMembers = [
+    { name: "TÓTH MÁTYÁS", code: "OQH5NH", email: "matyastoth.mail@gmail.com" },
+    { name: "VAY DOMINIKA", code: "VM3DIR", email: "vaydominika@gmail.com" },
+    { name: "ARDON MILÁN", code: "E00XC3", email: "ardon.milan1@gmail.com" },
+    { name: "KOVÁCS ATTILA MARCELL", code: "SEGUV3", email: "kovacsmarci03@gmail.com" },
+    { name: "GOMBKÖTŐ ÁBEL MARCELL", code: "C67VWA", email: "gmbkt09@gmail.com" },
+  ];
 
-        <div className="flex gap-4 items-center flex-col sm:flex-row">
-          <a
-            className="rounded-full border border-solid border-transparent transition-colors flex items-center justify-center bg-foreground text-background gap-2 hover:bg-[#383838] dark:hover:bg-[#ccc] text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5"
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <Image
-              className="dark:invert"
-              src="https://nextjs.org/icons/vercel.svg"
-              alt="Vercel logomark"
-              width={20}
-              height={20}
-            />
-            Deploy now
-          </a>
-          <a
-            className="rounded-full border border-solid border-black/[.08] dark:border-white/[.145] transition-colors flex items-center justify-center hover:bg-[#f2f2f2] dark:hover:bg-[#1a1a1a] hover:border-transparent text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5 sm:min-w-44"
-            href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Read our docs
-          </a>
+  const tableOfContents = [
+    { title: "Bevezetés", id: "introduction" },
+    { title: "Projekt áttekintés", id: "project-overview" },
+    { title: "Célkitűzések", id: "objectives" },
+    { title: "Funkcionalitás", id: "functionality" },
+    { title: "Technológiai stack", id: "tech-stack" },
+  ];
+
+  return (
+    <>
+      <div className="flex flex-col h-screen text-gray-600">
+        <div className="p-4">
+          <h1 className="text-xl">Csoport neve: Alt+F4 Alakulat - Az Azonnali Kilépők</h1>
+          <h1 className="text-xl">Feladat sorszáma: 2</h1>
+          <h1 className="text-xl">Feladat címe: H1</h1>
         </div>
-      </main>
-      <footer className="row-start-3 flex gap-6 flex-wrap items-center justify-center">
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="https://nextjs.org/icons/file.svg"
-            alt="File icon"
-            width={16}
-            height={16}
-          />
-          Learn
-        </a>
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="https://nextjs.org/icons/window.svg"
-            alt="Window icon"
-            width={16}
-            height={16}
-          />
-          Examples
-        </a>
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://nextjs.org?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="https://nextjs.org/icons/globe.svg"
-            alt="Globe icon"
-            width={16}
-            height={16}
-          />
-          Go to nextjs.org →
-        </a>
-      </footer>
-    </div>
+        <div className="flex-grow flex flex-col items-center justify-center">
+          <h1 className="text-5xl mb-8 py-8">Vízió dokumentum</h1>
+          <h4 className="text-l">Gyakorlatvezető</h4>
+          <h3 className="text-3xl mb-8">DR. ÁRVAI LÁSZLÓ LAJOS</h3>
+          <h3 className="text-2xl mb-8">Csoporttagok:</h3>
+          <table className="border-collapse border-4 border-gray-400 mb-16">
+            <tbody>
+              {groupMembers.map((member, index) => (
+                <tr key={index}>
+                  <td className="border-2 border-gray-400 p-4 text-lg">{member.name}</td>
+                  <td className="border-2 border-gray-400 p-4 text-lg">{member.code}</td>
+                  <td className="border-2 border-gray-400 p-4 text-lg">{member.email}</td>
+                </tr>
+              ))}
+            </tbody>
+          </table>
+        </div>
+        <div className="p-4 text-right mb-8">
+          <h2>BEADÁS DÁTUMA</h2>
+          <h2>2024. október 10.</h2>
+        </div>
+
+        <div className="flex flex-col items-center justify-center mb-16">
+          <h1 className="text-4xl mb-8">Tartalomjegyzék</h1>
+          <table className="mb-16 border-collapse underline text-blue-600 hover:text-blue-900 transition-colors duration-200">
+            <tbody>
+              {tableOfContents.map((item, index) => (
+                <tr key={index}>
+                  <td className="px-52">
+                    <a href={`#${item.id}`} className="text-blue-600 hover:text-blue-900 transition-colors duration-200">
+                      {index + 1}. {item.title}
+                    </a>
+                  </td>
+                </tr>
+              ))}
+            </tbody>
+          </table>
+        </div>
+        <div className="flex justify-center mb-8">
+          <h1 className="text-4xl pb-8">1. Bevezetés</h1>
+        </div>
+        <h2 className="my-8 ml-8">2.2. (A probléma megfogalmazása) min. 2 oldal</h2>
+        <h2 className="my-8 ml-8">2.3. (A termék helye) min 1-2 oldal</h2>
+        <h2 className="my-8 ml-8">3.4. (Felhasználói környezet)</h2>
+        <h2 className="my-8 ml-8">4.2. (A termék használatának előnyei)</h2>
+        <h2 className="my-8 ml-8">4.3. (Feltételezések és függőségek)</h2>
+        <h2 className="my-8 ml-8">5. (A végtermék jellemzői) min. 2 oldal</h2>
+        <h2 className="my-8 ml-8">7. (Minőségi elvárások)</h2>
+        <h2 className="my-8 ml-8">9. (Kockázat lista)</h2>
+        <h2 className="my-8 ml-8 mb-16">10. (Szótár) min. 1 oldal</h2>
+
+        <div className="flex justify-center mb-8">
+        <h1 className="text-4xl pb-8">2. Projekt terv</h1>
+      </div>
+
+      <div className="flex justify-center mb-8">
+        <h1 className="text-4xl pb-8">3. Munkanapló</h1>
+      </div>
+      </div>
+    </>
   );
 }
