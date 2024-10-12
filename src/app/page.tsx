@@ -79,11 +79,32 @@ export default function Home() {
             </tbody>
           </table>
         </div>
-        <h2 id="bevezetes" className="ml-8 text-xl font-bold text-sky-600">1. Bevezetés</h2>
-        <h2 id="alkalmazashelye" className="ml-8 text-xl font-bold text-sky-600">2. Az alkalmazás helye</h2>
-        <h2 id="uzletilehetosegek" className="ml-8 text-xl font-bold text-sky-600">2.1 Üzleti lehetőségek</h2>
-        <h2 id="problema" className="ml-8 text-xl font-bold text-sky-600">2.2. A probléma megfogalmazása:</h2>
-        <h2 id="termekhelye" className="ml-8 text-xl font-bold text-sky-600">2.3. A termék helye:</h2>
+        <h2 id="bevezetes" className="ml-8 text-xl font-bold text-sky-600 pt-6">1. Bevezetés</h2>
+        <p className="pl-[5.3rem] pt-6">
+          Az általunk fejlesztett alkalmazás, a "Learnify" egy innovatív e-learning platform, amelynek célja, hogy a tanulási folyamatot élvezetesebbé és motiválóbbá tegye gamifikációs elemek beépítésével. A platform különféle kurzusokat és tananyagokat kínál, amelyek során a felhasználók pontokat, jelvényeket és szinteket szerezhetnek, valamint kihívásokkal és versenyekkel találkozhatnak, amelyek serkentik a tanulási kedvet. A "Learnify" interaktív és játékos megközelítése révén a felhasználók folyamatosan nyomon követhetik fejlődésüket és élményszerű módon sajátíthatják el az új ismereteket.
+        </p>
+        <h2 id="alkalmazashelye" className="ml-8 text-xl font-bold text-sky-600 pt-6">2. Az alkalmazás helye</h2>
+          <p className="pl-[5.3rem] pt-6">
+            Az oktatás digitalizálódása és az online tanulási lehetőségek elterjedése számos új lehetőséget teremt, de egyúttal kihívásokat is hoz magával. Sok e-learning platform nem tudja megfelelően fenntartani a tanulók érdeklődését és motivációját, ami az eredmények és a tanulási folyamat hatékonyságának csökkenéséhez vezethet. A "Learnify" célja, hogy ezeket a kihívásokat kezelje egy játékos, gamifikációs elemekkel gazdagított e-learning platform révén, amely aktívan bevonja a felhasználókat, és ösztönzi őket a tanulásra. Az alkalmazás modern, interaktív megközelítést kínál, amely különösen a fiatalabb generációk számára vonzó, akik már megszokták a játékok és az interaktív alkalmazások világát. A "Learnify" lehetővé teszi, hogy a tanulók élvezetes módon sajátítsák el az új ismereteket, miközben folyamatosan kapnak visszajelzést és jutalmakat a haladásukról, ezáltal növelve az elköteleződésüket és a tanulási eredményeiket.
+          </p>
+          <p className="pl-[5.3rem] pt-6">
+            A "Learnify" célja, hogy ezeket a kihívásokat kezelje egy játékos, gamifikációs elemekkel gazdagított e-learning platform révén, amely aktívan bevonja a felhasználókat, és ösztönzi őket a tanulásra. Az alkalmazás modern, interaktív megközelítést kínál, amely különösen a fiatalabb generációk számára vonzó, akik már megszokták a játékok és az interaktív alkalmazások világát. A "Learnify" lehetővé teszi, hogy a tanulók élvezetes módon sajátítsák el az új ismereteket, miközben folyamatosan kapnak visszajelzést és jutalmakat a haladásukról, ezáltal növelve az elköteleződésüket és a tanulási eredményeiket.
+          </p>
+        <h2 id="uzletilehetosegek" className="ml-8 text-xl font-bold text-sky-600 pt-6">2.1 Üzleti lehetőségek</h2>
+        <p className="pl-[5.3rem] pt-6">
+          A "Learnify" nem csupán egy oktatási platform, hanem egy olyan üzleti lehetőség is, amely illeszkedik a modern oktatási trendekhez és igényekhez. A platform előfizetéses modellben működhet, ahol az intézmények, vállalatok vagy egyéni felhasználók különböző csomagok közül választhatnak, attól függően, hogy milyen mértékű hozzáférést és funkcionalitást szeretnének. Az egyéni tanulók számára kedvező árú, személyre szabott kurzuscsomagokat kínálhat, míg az intézmények és vállalatok számára nagyobb, testre szabott előfizetési lehetőségeket biztosíthat.
+        </p>
+        <p className="pl-[5.3rem] pt-6">
+          Ezen túlmenően a "Learnify" bővíthető vállalati képzési platformként is, amely segíthet a cégeknek dolgozóik szakmai fejlődésének nyomon követésében és javításában. A gamifikációs elemek hozzájárulhatnak a dolgozói elkötelezettség növeléséhez és a tanulási folyamat hatékonyabbá tételéhez, így a vállalatok szívesebben fektethetnek be az alkalmazás használatába.
+        </p>
+        <p className="pl-[5.3rem] pt-6">
+          Az oktatási intézmények számára a "Learnify" egy olyan megoldás, amely támogatja a tanulók motivációjának fenntartását és a tanulási eredmények javítását, ezáltal növelve az intézmény hírnevét és versenyképességét. A platform ezenkívül lehetőséget biztosíthat online kurzusok létrehozására és értékesítésére, ami új bevételi forrást jelenthet az intézmények számára.
+        </p>
+        <p className="pl-[5.3rem] pt-6">
+          Összességében a "Learnify" rugalmasan illeszkedik a különböző oktatási és üzleti igényekhez, és lehetőséget biztosít a piacbővítésre és a felhasználói bázis folyamatos növelésére.
+        </p>
+        <h2 id="problema" className="ml-8 text-xl font-bold text-sky-600 pt-6">2.2. A probléma megfogalmazása:</h2>
+        <h2 id="termekhelye" className="ml-8 text-xl font-bold text-sky-600 pt-6">2.3. A termék helye:</h2>
         <ul>
           <li className="pl-[5.3rem] p-6">Az új e-learning platform piaci pozíciójának meghatározása során fontos figyelembe venni az online oktatásban tapasztalható gyors változásokat és az innovációra irányuló növekvő igényeket. Az e-learning szektor dinamikus növekedése nemcsak a technológiai fejlődésnek köszönhető, hanem az oktatási paradigmaváltásnak is, amely az információs társadalom igényeihez igazodva egyre inkább a digitalizációra, valamint a tanulási folyamat testreszabhatóságára helyezi a hangsúlyt.</li>
 
@@ -139,13 +160,161 @@ export default function Home() {
         </ul>
 
         <h2 className="ml-8 text-xl font-bold text-sky-600 pt-6">3. Érintettek és felhasználók</h2>
+        
+        <p className="pl-[5.3rem] pt-6">
+          A "Learnify" rendszer fejlesztése és üzemeltetése során több érintett csoport és felhasználói réteg kerül beazonosításra, amelyek szerepe és viszonya eltérő az alkalmazáshoz és a szervezethez képest.
+        </p>
+
+        <ul className="pl-[5.3rem] pt-6 list-disc">
+          <li className="mb-4">
+            <span className="font-bold pt-6">Oktatási intézmények és oktatók:</span>
+            <ul className="pl-8 mt-2 list-disc">
+              <li><span className="font-bold pt-6">Beosztás:</span> Tanárok, professzorok, oktatási koordinátorok.</li>
+              <li><span className="font-bold">Viszony az alkalmazáshoz:</span> Ők azok, akik a tartalmakat létrehozzák és menedzselik a platformon, valamint követik a diákok előrehaladását. Feladatuk, hogy a tananyagokat hozzáigazítsák a platform lehetőségeihez, kihasználva a gamifikáció nyújtotta előnyöket.</li>
+              <li><span className="font-bold">Kapcsolat a szervezettel:</span> Az oktatók és az intézmények számára a "Learnify" egy olyan eszköz, amely megkönnyíti és hatékonyabbá teszi az oktatási folyamatokat.</li>
+            </ul>
+          </li>
+
+          <li className="mb-4">
+            <span className="font-bold">Diákok és tanulók:</span>
+            <ul className="pl-8 mt-2 list-disc">
+              <li><span className="font-bold">Beosztás:</span> Egyetemi hallgatók, középiskolai diákok, valamint felnőttképzésben részt vevő tanulók.</li>
+              <li><span className="font-bold">Viszony az alkalmazáshoz:</span> Ők a rendszer elsődleges felhasználói, akik a platformon keresztül tanulnak és részt vesznek a különböző kurzusokban. Számukra a gamifikáció segít fenntartani az érdeklődést és motivációt a tanulás során.</li>
+              <li><span className="font-bold">Kapcsolat a szervezettel:</span> A diákok közvetlenül a tananyagot és az oktatókat kapcsolják össze az alkalmazáson keresztül, így aktív részesei a tanulási folyamatnak.</li>
+            </ul>
+          </li>
+
+          <li className="mb-4">
+            <span className="font-bold">Vállalatok és szervezetek:</span>
+            <ul className="pl-8 mt-2 list-disc">
+              <li><span className="font-bold">Beosztás:</span> HR menedzserek, vállalati oktatási szakértők.</li>
+              <li><span className="font-bold">Viszony az alkalmazáshoz:</span> A cégek számára a "Learnify" egy platformot biztosít dolgozóik képzéséhez és fejlesztéséhez. Ők felelősek a megfelelő kurzusok kiválasztásáért és a dolgozók előrehaladásának nyomon követéséért.</li>
+              <li><span className="font-bold">Kapcsolat a szervezettel:</span> A vállalatok számára az alkalmazás egy eszköz, amely segíti a dolgozók szakmai fejlődését és motivációjuk fenntartását, ezáltal növelve a vállalati teljesítményt.</li>
+            </ul>
+          </li>
+
+          <li className="mb-4">
+            <span className="font-bold">Platform fejlesztők és rendszergazdák:</span>
+            <ul className="pl-8 mt-2 list-disc">
+              <li><span className="font-bold">Beosztás:</span> Szoftverfejlesztők, UI/UX tervezők, rendszergazdák.</li>
+              <li><span className="font-bold">Viszony az alkalmazáshoz:</span> Ők felelősek a platform karbantartásáért, új funkciók fejlesztéséért és az alkalmazás stabil működéséért. Az ő szerepük kiemelten fontos az alkalmazás folyamatos fejlesztése és üzemeltetése során.</li>
+              <li><span className="font-bold">Kapcsolat a szervezettel:</span> A fejlesztők és rendszergazdák közvetlen kapcsolatban állnak a szervezet vezetőivel és az ügyfelekkel, hogy az igényeket és visszajelzéseket figyelembe véve folyamatosan fejleszthessék a rendszert.</li>
+            </ul>
+          </li>
+        </ul>
+
+        <p className="pl-[5.3rem] pt-6">
+          Az összes érintett és felhasználó azonosítása és bevonása kritikus lépés annak érdekében, hogy az alkalmazás a felhasználói igényeknek megfelelően működjön, és minden érintett számára hasznos funkciókat kínáljon.
+        </p>
+
         <h2 className="ml-8 text-xl font-bold text-sky-600 pt-6">3.1 Az érintettek összefoglalása</h2>
         <h2 className="ml-8 text-xl font-bold text-sky-600 pt-6">3.2 Az felhasználók összefoglalása</h2>
         <h2 className="ml-8 text-xl font-bold text-sky-600 pt-6">3.3. Felhasználói környezet:</h2>
         <h2 className="ml-8 text-xl font-bold text-sky-600 pt-6">3.4 Illetékesek adatai</h2>
         <h2 className="ml-8 text-xl font-bold text-sky-600 pt-6">3.5 Felhasználók adatai</h2>
         <h2 className="ml-8 text-xl font-bold text-sky-600 pt-6">4. A végtermék áttekintése</h2>
+        <p className="pl-[5.3rem] pt-6">
+          A "Learnify" egy webalapú, gamifikációval támogatott e-learning platform, amely az online oktatás és képzés élményét teszi interaktívabbá és motiválóbbá. Az alkalmazás célja, hogy növelje a tanulók elköteleződését és javítsa a tanulási eredményeket különböző játékos elemek és ösztönző mechanizmusok beépítésével.
+        </p>
+
+        <p className="pl-[5.3rem] pt-6 font-bold">A végtermék legfontosabb jellemzői:</p>
+
+        <ul className="pl-[7rem] pt-4 list-disc">
+          <li className="mb-4">
+            <span className="font-bold">Platformfüggetlenség:</span>
+            <p className="mt-2">
+              A "Learnify" elérhető lesz asztali számítógépeken, laptopokon, valamint mobil eszközökön (okostelefonokon és tableteken) egyaránt, hogy a felhasználók bármikor és bárhonnan hozzáférhessenek.
+            </p>
+          </li>
+
+          <li className="mb-4">
+            <span className="font-bold">Gamifikációs elemek:</span>
+            <p className="mt-2">
+              A rendszer különböző játékos elemeket, például pontgyűjtést, jelvényeket, szinteket és kihívásokat tartalmaz, amelyek célja, hogy motiválják a tanulókat és nyomon kövessék a fejlődésüket.
+            </p>
+          </li>
+
+          <li className="mb-4">
+            <span className="font-bold">Interaktív tananyagok és feladatok:</span>
+            <p className="mt-2">
+              A platformon elérhető tananyagok multimédiás tartalmakkal (videók, interaktív kvízek, szimulációk) vannak kiegészítve, hogy a tanulók számára változatos és élvezetes tanulási élményt nyújtsanak.
+            </p>
+          </li>
+
+          <li className="mb-4">
+            <span className="font-bold">Testreszabhatóság:</span>
+            <p className="mt-2">
+              A "Learnify" rugalmasan testreszabható mind az egyéni tanulók, mind az oktatási intézmények vagy vállalatok számára, lehetővé téve a kurzusok személyre szabását, valamint a haladás és teljesítmény nyomon követését.
+            </p>
+          </li>
+
+          <li className="mb-4">
+            <span className="font-bold">Felhőalapú tárolás:</span>
+            <p className="mt-2">
+              Az alkalmazás felhőalapú tárolást használ, amely lehetővé teszi a tanulók számára, hogy biztonságosan hozzáférjenek adataikhoz és tananyagaikhoz bárhonnan, anélkül, hogy helyi telepítésre vagy frissítésekre lenne szükségük.
+            </p>
+          </li>
+
+          <li className="mb-4">
+            <span className="font-bold">Integrációk:</span>
+            <p className="mt-2">
+              A platform képes integrálódni más tanulásmenedzsment rendszerekkel (LMS), valamint videókonferencia-eszközökkel, így egy átfogó tanulási környezetet biztosít az oktatóknak és tanulóknak.
+            </p>
+          </li>
+        </ul>
+
         <h2 className="ml-8 text-xl font-bold text-sky-600 pt-6">4.1 A termék kapcsolatai</h2>
+        <p className="pl-[5.3rem] pt-6">
+          A "Learnify" több funkcionális komponensből ll, amelyek egymással és más rendszerekkel is kapcsolatban állnak, hogy átfogó e-learning élményt biztosítsanak a felhasználóknak.
+        </p>
+
+        <h3 className="ml-12 text-lg font-bold pt-4">Funkcionális komponensek:</h3>
+
+        <ul className="pl-16 list-disc">
+          <li className="mt-2">
+            <span className="font-bold">Felhasználói felület (UI):</span>
+            <p className="mt-1">
+              A "Learnify" felhasználói felülete web- és mobilalkalmazásként érhető el, biztosítva az intuitív navigációt és a felhasználói élményt mind az oktatók, mind a tanulók számára.
+            </p>
+          </li>
+          <li className="mt-2">
+            <span className="font-bold">Tananyagkezelő rendszer:</span>
+            <p className="mt-1">
+              A platform tartalmaz egy tananyagkezelő modult, amely lehetővé teszi a kurzusok létrehozását, szerkesztését és kezelését. Az oktatók könnyedén feltölthetik a tananyagaikat, és testreszabhatják azokat a kurzus követelményei szerint.
+            </p>
+          </li>
+          <li className="mt-2">
+            <span className="font-bold">Gamifikációs modul:</span>
+            <p className="mt-1">
+              A gamifikációs funkciók, mint a pontok, szintek és jelvények kezelése egy külön modulban történik. Ez a modul felelős a felhasználói aktivitás nyomon követéséért és az ösztönző mechanizmusok működtetéséért.
+            </p>
+          </li>
+          <li className="mt-2">
+            <span className="font-bold">Értékelési és nyomon követési rendszer:</span>
+            <p className="mt-1">
+              Ez a modul biztosítja a tanulók teljesítményének követését, valamint a kvízek és tesztek automatikus kiértékelését. Az eredmények és a haladási adatok megjelennek mind a tanulók, mind az oktatók számára.
+            </p>
+          </li>
+        </ul>
+
+        <h3 className="ml-12 text-lg font-bold pt-6">A termék helye egy nagyobb rendszerben:</h3>
+
+        <p className="pl-16 pt-2">
+          A "Learnify" egy tanulásmenedzsment rendszer (LMS) részeként működik, és különböző más rendszerekkel is integrálható a hatékony tanulási élmény érdekében:
+        </p>
+
+        <ul className="pl-20 list-disc">
+          <li className="mt-2">
+            <span className="font-bold">Videókonferencia-eszközök:</span> A platform integrálható népszerű videókonferencia-szoftverekkel, mint a Zoom és a Microsoft Teams, hogy a tanárok élő órákat tarthassanak közvetlenül az alkalmazáson belül.
+          </li>
+          <li className="mt-2">
+            <span className="font-bold">Más LMS-ekkel való integráció:</span> A "Learnify" API-n keresztül csatlakozhat más tanulásmenedzsment rendszerekhez (például Moodle), így az intézmények könnyen importálhatják meglévő kurzusaikat és tanulói adataikat.
+          </li>
+          <li className="mt-2">
+            <span className="font-bold">Harmadik fél alkalmazásai:</span> A platform nyitott API-t biztosít harmadik fél által fejlesztett alkalmazások számára, így a felhasználók további tanulási eszközöket, mint például virtuális laboratóriumok vagy szimulációs programok, könnyen integrálhatnak a rendszerbe.
+          </li>
+        </ul>
+
         <h2 className="ml-8 text-xl font-bold text-sky-600 pt-6">4.2. A termék használatának előnyei:</h2>
         <h2 className="ml-8 text-xl font-bold text-sky-600 pt-6">4.3. Feltételezések és függőségek:</h2>
         <ul className="my-2 ml-8">
@@ -205,9 +374,9 @@ export default function Home() {
           <li className="my-2 ml-8 font-bold indent-8 pt-6"> ○ Szabályozási és adatvédelmi megfelelés:</li>
           <li className="pl-[4.8rem]">
           A projekt során szigorúan be kell tartani az aktuális jogszabályi
-        előírásokat és adatvédelmi szabályokat (például GDPR), hogy garantálni
-        lehessen a felhasználói adatok biztonságos kezelését és tárolását.
-        Ezen szabályozások megsértése komoly következményekkel járhat.
+          előírásokat és adatvédelmi szabályokat (például GDPR), hogy garantálni
+          lehessen a felhasználói adatok biztonságos kezelését és tárolását.
+          Ezen szabályozások megsértése komoly következményekkel járhat.
           </li>
 
           <li className="my-2 ml-8 font-bold indent-8 pt-6"> ○ Innovációs és technológiai kihívások kezelése:</li>
@@ -227,10 +396,282 @@ export default function Home() {
           </li>
         </ul>
 
-        <h2 className="ml-8 text-xl font-bold text-sky-600 pt-6">4.4. Költségbecslés</h2>
-        <h2 className="ml-8 text-xl font-bold text-sky-600 pt-6">4.5. Installáció</h2>
-        <h2 className="ml-8 text-xl font-bold text-sky-600 pt-6">5. A végtermék jellemzői, biztosított szolgáltatások</h2>
+        <h2 id="koltsegbecsles" className="ml-8 text-xl font-bold text-sky-600 pt-6">4.4. Költségbecslés</h2>
+
+        <p className="pl-[5.3rem] pt-6">
+          A "Learnify" fejlesztése és üzembe állítása több különböző költségtételből áll, amelyeket az alábbiakban részletezünk. A költségek becslése a projekt jelenlegi szakaszában történik, és a későbbi változások és fejlesztési igények függvényében módosulhat.
+        </p>
+
+        <h3 className="ml-12 text-lg font-bold pt-4">1. Fejlesztési költségek</h3>
+
+        <p className="pl-[5.3rem] pt-2">
+          <span className="font-bold">Szoftverfejlesztők:</span> A fejlesztői csapat bérköltségei (5 fő, 6 hónapos fejlesztési időszak):
+        </p>
+        <ul className="pl-[7rem] list-disc">
+          <li>5 fejlesztő havi bérköltsége: 5 × 500.000 Ft = 2.500.000 Ft / hónap</li>
+          <li>Összesen: 2.500.000 Ft × 6 hónap = 15.000.000 Ft</li>
+        </ul>
+
+        <p className="pl-[5.3rem] pt-2">
+          <span className="font-bold">UI/UX tervezés:</span> A felhasználói felület és élmény tervezési költségei:
+        </p>
+        <ul className="pl-[7rem] list-disc">
+          <li>Tervező havi bérköltsége (1 fő, 3 hónap): 1 × 600.000 Ft = 600.000 Ft / hónap</li>
+          <li>Összesen: 600.000 Ft × 3 hónap = 1.800.000 Ft</li>
+        </ul>
+
+        <p className="pl-[5.3rem] pt-2">
+          <span className="font-bold">Projektmenedzsment:</span>
+        </p>
+        <ul className="pl-[7rem] list-disc">
+          <li>Projektmenedzser havi bérköltsége (1 fő, 6 hónap): 1 × 700.000 Ft = 700.000 Ft / hónap</li>
+          <li>Összesen: 700.000 Ft × 6 hónap = 4.200.000 Ft</li>
+        </ul>
+
+        <p className="pl-[5.3rem] pt-2">
+          <span className="font-bold">Tesztelési költségek:</span>
+        </p>
+        <ul className="pl-[7rem] list-disc">
+          <li>Felhasználói tesztek és QA tesztelők díja: 2.000.000 Ft</li>
+        </ul>
+
+        <h3 className="ml-12 text-lg font-bold pt-4">2. Infrastruktúra és technikai költségek</h3>
+
+        <p className="pl-[5.3rem] pt-2">
+          <span className="font-bold">Szerverek és felhőalapú tárolás:</span>
+        </p>
+        <ul className="pl-[7rem] list-disc">
+          <li>Felhőalapú szerver és tárolási költség (AWS vagy Azure): 1.500.000 Ft / év</li>
+        </ul>
+
+        <p className="pl-[5.3rem] pt-2">
+          <span className="font-bold">Fejlesztői eszközök és licenszek:</span>
+        </p>
+        <ul className="pl-[7rem] list-disc">
+          <li>Fejlesztői szoftverek és licenszek költsége: 800.000 Ft</li>
+        </ul>
+
+        <h3 className="ml-12 text-lg font-bold pt-4">3. Üzembe állítás és karbantartás</h3>
+
+        <p className="pl-[5.3rem] pt-2">
+          <span className="font-bold">Bevezetési költségek:</span>
+        </p>
+        <ul className="pl-[7rem] list-disc">
+          <li>Az alkalmazás üzembe helyezése és oktatási programok kidolgozása: 3.000.000 Ft</li>
+        </ul>
+
+        <p className="pl-[5.3rem] pt-2">
+          <span className="font-bold">Karbantartás és frissítések (éves költség):</span>
+        </p>
+        <ul className="pl-[7rem] list-disc">
+          <li>Technikai támogatás és frissítések: 2.000.000 Ft / év</li>
+        </ul>
+
+        <h3 className="ml-12 text-lg font-bold pt-4">Összesített költségbecslés</h3>
+
+        <ul className="pl-[7rem] list-disc">
+          <li>Fejlesztési fázis összesen: 23.000.000 Ft</li>
+          <li>Infrastruktúra és licenszek: 2.300.000 Ft</li>
+          <li>Bevezetés és karbantartás (1. év): 5.000.000 Ft</li>
+          <li className="font-bold">Teljes költség (első év): 30.300.000 Ft</li>
+        </ul>
+
+        <h2 id="installacio" className="ml-8 text-xl font-bold text-sky-600 pt-6">4.5. Installáció</h2>
+
+        <p className="pl-[5.3rem] pt-6">
+          A "Learnify" rendszer telepítése során a következő követelmények és lépések szükségesek a sikeres üzembe helyezéshez:
+        </p>
+
+        <h3 className="ml-12 text-lg font-bold pt-4">1. Hardver követelmények</h3>
+
+        <p className="pl-[5.3rem] pt-2">
+          <span className="font-bold">Szerver:</span>
+        </p>
+        <ul className="pl-[7rem] list-disc">
+          <li>Legalább 8 GB RAM és 4 CPU mag.</li>
+          <li>Legalább 100 GB szabad tárhely, ideális esetben SSD a gyorsabb teljesítmény érdekében.</li>
+        </ul>
+
+        <p className="pl-[5.3rem] pt-2">
+          <span className="font-bold">Hálózati követelmények:</span>
+        </p>
+        <ul className="pl-[7rem] list-disc">
+          <li>Stabil internetkapcsolat (minimum 10 Mbps sebesség).</li>
+          <li>Tűzfal beállítások a külső hozzáférés biztosításához és a biztonsági protokollok betartásához.</li>
+        </ul>
+
+        <h3 className="ml-12 text-lg font-bold pt-4">2. Szoftver követelmények</h3>
+
+        <p className="pl-[5.3rem] pt-2">
+          <span className="font-bold">Operációs rendszer:</span>
+        </p>
+        <ul className="pl-[7rem] list-disc">
+          <li>Linux alapú szerver (pl. Ubuntu, CentOS) vagy Windows Server.</li>
+        </ul>
+
+        <p className="pl-[5.3rem] pt-2">
+          <span className="font-bold">Szoftveres környezet:</span>
+        </p>
+        <ul className="pl-[7rem] list-disc">
+          <li>Webszerver: Nginx vagy Apache.</li>
+          <li>Adatbázis: MySQL vagy PostgreSQL.</li>
+          <li>Programozási nyelv: Node.js, Python vagy PHP.</li>
+        </ul>
+
+        <p className="pl-[5.3rem] pt-2">
+          <span className="font-bold">Egyéb szükséges szoftverek:</span>
+        </p>
+        <ul className="pl-[7rem] list-disc">
+          <li>Docker a konténerizáláshoz (opcionális).</li>
+          <li>SSL tanúsítvány a biztonságos HTTPS kapcsolat létrehozásához.</li>
+        </ul>
+
+        <h3 className="ml-12 text-lg font-bold pt-4">3. Telepítő program</h3>
+
+        <p className="pl-[5.3rem] pt-2">
+          <span className="font-bold">Telepítő csomag:</span>
+        </p>
+        <ul className="pl-[7rem] list-disc">
+          <li>A "Learnify" telepítő programja tartalmazza a szükséges fájlokat és konfigurációkat. A telepítés lépései a dokumentált útmutató alapján történnek.</li>
+        </ul>
+
+        <h3 className="ml-12 text-lg font-bold pt-4">4. Betanítás és üzemeltető személyzet</h3>
+
+        <p className="pl-[5.3rem] pt-2">
+          <span className="font-bold">Betanítási program:</span>
+        </p>
+        <ul className="pl-[7rem] list-disc">
+          <li>Az üzemeltető személyzet részére betanítás szükséges, amely magában foglalja:</li>
+          <li>A rendszer funkcióinak és kezelőfelületének megismerését.</li>
+          <li>A karbantartási és frissítési eljárások betanítását.</li>
+          <li>A hibakezelési és technikai támogatási folyamatok ismertetését.</li>
+        </ul>
+
+        <p className="pl-[5.3rem] pt-2">
+          <span className="font-bold">Támogatási dokumentáció:</span>
+        </p>
+        <ul className="pl-[7rem] list-disc">
+          <li>A telepítés során a rendszerhez mellékelni kell a felhasználói és üzemeltetői dokumentációkat, amelyek útmutatást nyújtanak a mindennapi használathoz és a hibaelhárításhoz.</li>
+        </ul>
+
+        <h3 className="ml-12 text-lg font-bold pt-4">5. Tesztelési fázis</h3>
+
+        <p className="pl-[5.3rem] pt-2">
+          <span className="font-bold">Előzetes tesztelés:</span>
+        </p>
+        <ul className="pl-[7rem] list-disc">
+          <li>A telepítést követően a rendszer funkcionalitásának tesztelése szükséges, hogy biztosítsa a megfelelő működést és a felhasználói élményt.</li>
+        </ul>
+
+        <p className="pl-[5.3rem] pt-2">
+          <span className="font-bold">Visszajelzés gyűjtése:</span>
+        </p>
+        <ul className="pl-[7rem] list-disc">
+          <li>A tesztelési fázis során a felhasználói visszajelzések gyűjtése és kiértékelése elengedhetetlen a végső finomításokhoz.</li>
+        </ul>
+
+        <h2 id="vegtermekjellemzoi" className="ml-8 text-xl font-bold text-sky-600 pt-6">5. A végtermék jellemzői, biztosított szolgáltatások</h2>
+        <p className="pl-[5.3rem] pt-6">
+  A "Learnify" e-learning rendszer egy innovatív platform, amely számos funkciót kínál a tanulók és oktatók számára. Az alábbiakban összefoglaljuk a legfontosabb szolgáltatásokat, prioritásokkal kiegészítve, a felhasználók szempontjából.
+</p>
+
+<ul className="pl-[5.3rem] pt-4 list-disc">
+  <li className="mb-4">
+    <span className="font-bold">Interaktív tananyagok</span>
+    <p className="mt-2"><span className="font-bold">Prioritás:</span> Magas</p>
+    <p>A tanulók számára hozzáférést biztosít különféle interaktív tananyagokhoz, beleértve a videókat, kvízeket, és szimulációkat. Ezek a tartalmak segítik a mélyebb megértést és a tudás gyakorlati alkalmazását.</p>
+  </li>
+
+  <li className="mb-4">
+    <span className="font-bold">Gamifikációs elemek</span>
+    <p className="mt-2"><span className="font-bold">Prioritás:</span> Magas</p>
+    <p>A platform beépített gamifikációs funkciókat kínál, mint például a pontgyűjtés, szintezés és jelvények. Ezek az elemek motiválják a tanulókat a részvételre és a teljesítmény javítására.</p>
+  </li>
+
+  <li className="mb-4">
+    <span className="font-bold">Teljesítménykövetés</span>
+    <p className="mt-2"><span className="font-bold">Prioritás:</span> Közepes</p>
+    <p>Az alkalmazás részletes statisztikákat és elemzéseket nyújt a tanulók teljesítményéről, lehetővé téve számukra, hogy nyomon követhessék fejlődésüket és azonosíthassák a fejlődési lehetőségeket.</p>
+  </li>
+
+  <li className="mb-4">
+    <span className="font-bold">Közösségi funkciók</span>
+    <p className="mt-2"><span className="font-bold">Prioritás:</span> Közepes</p>
+    <p>A platform lehetőséget biztosít a felhasználók számára, hogy interakcióba lépjenek egymással, fórumokon, csoportos projektek keretében, és közös tanulási élményeket oszthassanak meg.</p>
+  </li>
+
+  <li className="mb-4">
+    <span className="font-bold">Mobil alkalmazás</span>
+    <p className="mt-2"><span className="font-bold">Prioritás:</span> Közepes</p>
+    <p>A "Learnify" mobilalkalmazás biztosítja a tanulók számára, hogy bármikor és bárhol hozzáférjenek a tananyagokhoz és feladatokhoz, így rugalmasabbá téve a tanulást.</p>
+  </li>
+
+  <li className="mb-4">
+    <span className="font-bold">Testreszabható kurzusok</span>
+    <p className="mt-2"><span className="font-bold">Prioritás:</span> Alacsony</p>
+    <p>Az oktatók lehetőséget kapnak arra, hogy a tananyagot az igényeikhez és a célcsoportjukhoz igazítsák, testreszabva a kurzusokat a résztvevők szintjének és érdeklődésének megfelelően.</p>
+  </li>
+
+  <li className="mb-4">
+    <span className="font-bold">Technikai támogatás</span>
+    <p className="mt-2"><span className="font-bold">Prioritás:</span> Alacsony</p>
+    <p>A felhasználók számára elérhető technikai támogatás és oktatási anyagok segítik a platform hatékony használatát, valamint a felmerülő problémák gyors megoldását.</p>
+  </li>
+
+  <li className="mb-4">
+    <span className="font-bold">Értékelési rendszer</span>
+    <p className="mt-2"><span className="font-bold">Prioritás:</span> Közepes</p>
+    <p>Az értékelési rendszer lehetővé teszi a kvízek és tesztek automatikus kiértékelését, valamint visszajelzést ad a tanulóknak a teljesítményükről.</p>
+  </li>
+</ul>
         <h2 className="ml-8 text-xl font-bold text-sky-600 pt-6">6. Korlátozások</h2>
+
+        <p className="pl-[5.3rem] pt-6">
+          A "Learnify" e-learning rendszer fejlesztése és működése során számos korlátozó tényezővel kell számolni, amelyek befolyásolják a projekt megvalósítását. Az alábbiakban felsoroljuk a legfontosabb korlátozásokat:
+        </p>
+
+        <ul className="pl-[5.3rem] pt-4 list-disc">
+          <li className="mb-4">
+            <span className="font-bold">Hardver követelmények</span>
+            <p className="mt-2"><span className="font-bold">Prioritás:</span> Magas</p>
+            <p>A rendszernek képesnek kell lennie arra, hogy alacsony teljesítményű személyi számítógépeken is működjön. Ezért a felhasználói felület és a háttérszolgáltatások optimalizálása elengedhetetlen.</p>
+          </li>
+
+          <li className="mb-4">
+            <span className="font-bold">Jogszabályi és szabályozási előírások</span>
+            <p className="mt-2"><span className="font-bold">Prioritás:</span> Magas</p>
+            <p>A rendszernek meg kell felelnie az adatvédelmi előírásoknak (pl. GDPR) és az oktatási intézmények által előírt követelményeknek és irányelveknek.</p>
+          </li>
+
+          <li className="mb-4">
+            <span className="font-bold">Felhasználói élmény</span>
+            <p className="mt-2"><span className="font-bold">Prioritás:</span> Közepes</p>
+            <p>A rendszernek meg kell felelnie a különböző felhasználói igényeknek, beleértve a mozgáskorlátozott felhasználók elérhetőségét is, ami különböző akadálymentesítési irányelvek betartását igényli.</p>
+          </li>
+
+          <li className="mb-4">
+            <span className="font-bold">Technikai korlátozások</span>
+            <p className="mt-2"><span className="font-bold">Prioritás:</span> Magas</p>
+            <p>A rendszernek biztosítania kell a zökkenőmentes működést különböző platformokon és eszközökön. Az internetkapcsolat minősége jelentősen befolyásolhatja a felhasználói élményt.</p>
+          </li>
+
+          <li className="mb-4">
+            <span className="font-bold">Idő- és költségkeretek</span>
+            <p className="mt-2"><span className="font-bold">Prioritás:</span> Közepes</p>
+            <p>A projekt költségkerete és időkerete korlátozott lehet, ami befolyásolhatja a fejlesztés ütemezését és a megvalósítható funkciók körét.</p>
+          </li>
+
+          <li className="mb-4">
+            <span className="font-bold">Felhasználói visszajelzések</span>
+            <p className="mt-2"><span className="font-bold">Prioritás:</span> Alacsony</p>
+            <p>A felhasználói igények és visszajelzések folyamatos figyelemmel kísérése és a rendszerhez való alkalmazkodás képessége kulcsfontosságú, de kihívást jelenthet a fejlesztés során.</p>
+          </li>
+        </ul>
+
+        <p className="pl-[5.3rem] pt-6">
+          Ezek a korlátozások figyelembevételre kerülnek a "Learnify" e-learning rendszer fejlesztése és üzemeltetése során, hogy a lehető legjobban alkalmazkodjunk a felhasználók és a jogszabályi előírások igényeihez.
+        </p>
+
         <h2 className="ml-8 text-xl font-bold  text-sky-600 pt-6">7. Minőségi elvárások:</h2>
         <ul>
           <li className="my-2 ml-8 font-bold indent-8 list-disc list-inside pt-6">Felhasználó-központú, intuitív felület:</li>
@@ -263,7 +704,7 @@ export default function Home() {
           A felhasználói élményt (UX) folyamatosan fejleszteni kell, figyelembe véve a felhasználói visszajelzéseket és az új technológiai trendeket. Az iteratív javítások lehetővé teszik, hogy a platform mindig a legmagasabb színvonalon működjön.
           </li>
 
-          <li className="my-2 ml-8 font-bold indent-8 list-disc list-inside pt-6">Teljes körű tesztelési ciklusok:</li>
+          <li className="my-2 ml-8 font-bold indent-8 list-disc list-inside pt-6">Teljes kör tesztelési ciklusok:</li>
           <li className="pl-[5.3rem] pt-6">
           A fejlesztési folyamat minden szakaszában szigorú tesztelési protokollokat kell alkalmazni. Ez magában foglalja a funkcionális, teljesítmény-, biztonsági és terheléses teszteléseket, amelyek biztosítják a platform hibamentes működését.
           </li>
@@ -299,7 +740,7 @@ export default function Home() {
           <li className="pl-[5.3rem] font-bold pt-6">
           ○ Leírás: {" "}
           <span className="font-normal">
-          A projekt sikeres megvalósításához szükséges erőforrások, mint a megfelelő mennyiségű és képzett fejlesztők, tervezők és projektmenedzserek rendelkezésre állása elengedhetetlen. Az alulbecsült emberi erőforrások vagy a túlterhelt csapatok kockázatot jelentenek a projekt késedelmeire és minőségi problémáira.
+          A projekt sikeres megvalósításához szükséges erőforrások, mint a megfelelő mennyiségű és képzett fejlesztők, tervezők és projektmenedzserek rendelkezésre állása elengedhetetlen. Az alulbecsült erőforrások vagy a túlterhelt csapatok kockázatot jelentenek a projekt késedelmeire és minőségi problémáira.
           </span>
           </li>
 
@@ -451,7 +892,6 @@ export default function Home() {
           </span>
           </li>
         </ul>
-
         <h2 className="ml-8 text-xl font-bold  text-sky-600 pt-6">10. Szótár:</h2>
       </div>
     </>
