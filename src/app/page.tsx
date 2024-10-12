@@ -81,7 +81,7 @@ export default function Home() {
         </div>
         <h2 id="bevezetes" className="ml-8 text-xl font-bold text-sky-600 pt-6">1. Bevezetés</h2>
         <p className="pl-[5.3rem] pt-6">
-          Az általunk fejlesztett alkalmazás, a "Learnify" egy innovatív e-learning platform, amelynek célja, hogy a tanulási folyamatot élvezetesebbé és motiválóbbá tegye gamifikációs elemek beépítésével. A platform különféle kurzusokat és tananyagokat kínál, amelyek során a felhasználók pontokat, jelvényeket és szinteket szerezhetnek, valamint kihívásokkal és versenyekkel találkozhatnak, amelyek serkentik a tanulási kedvet. A "Learnify" interaktív és játékos megközelítése révén a felhasználók folyamatosan nyomon követhetik fejlődésüket és élményszerű módon sajátíthatják el az új ismereteket.
+          Az általunk fejlesztett alkalmazás, a "Learnify" egy innovatív e-learning platform, amelynek célja, hogy a tanulási folyamatot élvezetesebbé és motiválóbbá tegye gamifikációs elemek beépítésével. A platform különféle, felhasználók által létrehozott kurzusokat és tananyagokat kínál, amelyek során a felhasználók pontokat, jelvényeket és szinteket szerezhetnek, valamint kihívásokkal és versenyekkel találkozhatnak, amelyek serkentik a tanulási kedvet. A "Learnify" interaktív és játékos megközelítése révén a felhasználók folyamatosan nyomon követhetik fejlődésüket és élményszerű módon sajátíthatják el az új ismereteket.
         </p>
         <h2 id="alkalmazashelye" className="ml-8 text-xl font-bold text-sky-600 pt-6">2. Az alkalmazás helye</h2>
           <p className="pl-[5.3rem] pt-6">
@@ -92,7 +92,7 @@ export default function Home() {
           </p>
         <h2 id="uzletilehetosegek" className="ml-8 text-xl font-bold text-sky-600 pt-6">2.1 Üzleti lehetőségek</h2>
         <p className="pl-[5.3rem] pt-6">
-          A "Learnify" nem csupán egy oktatási platform, hanem egy olyan üzleti lehetőség is, amely illeszkedik a modern oktatási trendekhez és igényekhez. A platform előfizetéses modellben működhet, ahol az intézmények, vállalatok vagy egyéni felhasználók különböző csomagok közül választhatnak, attól függően, hogy milyen mértékű hozzáférést és funkcionalitást szeretnének. Az egyéni tanulók számára kedvező árú, személyre szabott kurzuscsomagokat kínálhat, míg az intézmények és vállalatok számára nagyobb, testre szabott előfizetési lehetőségeket biztosíthat.
+          A "Learnify" nem csupán egy oktatási platform, hanem egy olyan üzleti lehetőség is, amely illeszkedik a modern oktatási trendekhez és igényekhez. Kurzusok létrehozásánál a készítő dönthet arról, hogy a kurzus ingyenes elérhető és elvégezhető, vagy fizetős, ezáltal a kurzusok létrehozóinak is egyfajta bevételszerzési lehetőséget jelent. A vállalat bevételét a fizetős kurzusokból bejövő százalékos haszon jelenti. 
         </p>
         <p className="pl-[5.3rem] pt-6">
           Ezen túlmenően a "Learnify" bővíthető vállalati képzési platformként is, amely segíthet a cégeknek dolgozóik szakmai fejlődésének nyomon követésében és javításában. A gamifikációs elemek hozzájárulhatnak a dolgozói elkötelezettség növeléséhez és a tanulási folyamat hatékonyabbá tételéhez, így a vállalatok szívesebben fektethetnek be az alkalmazás használatába.
@@ -104,6 +104,20 @@ export default function Home() {
           Összességében a "Learnify" rugalmasan illeszkedik a különböző oktatási és üzleti igényekhez, és lehetőséget biztosít a piacbővítésre és a felhasználói bázis folyamatos növelésére.
         </p>
         <h2 id="problema" className="ml-8 text-xl font-bold text-sky-600 pt-6">2.2. A probléma megfogalmazása:</h2>
+
+        <p className="pl-[5.3rem] pt-6">
+        Az e-learning platformunk célja, hogy megoldást kínáljon a modern oktatás számos kihívására, amelyek a hagyományos tanulási módszerekből erednek. Az alábbiakban bemutatjuk a főbb problémákat, amelyekkel a felhasználók és az oktatók szembesülnek, és amelyeket platformunk révén szeretnénk orvosolni.
+        </p>
+
+        <p className="pl-[5.3rem] pt-6 font-bold">
+        Problémák, amikre az alkalmazás megoldást kínál:
+        </p>
+
+        <ul className="pl-[7rem] pt-4 list-disc"> <li className="mb-4"> <span className="font-bold">Hozzáférhetőség és rugalmasság:</span> <p className="mt-2"> A hagyományos oktatási rendszerek gyakran korlátozzák a tanulási lehetőségeket, hiszen az előadások, kurzusok és tananyagok elérhetősége meghatározott időpontokhoz és helyszínekhez kötött. Ez megnehezíti a diákok számára, hogy a saját tempójukban tanuljanak, különösen azok számára, akik munka vagy családi kötelezettségek miatt nem tudnak részt venni a hagyományos órákon. Az e-learning platformunk rugalmas tanulási lehetőséget kínál, lehetővé téve, hogy a felhasználók bármikor és bárhol hozzáférjenek a kurzusokhoz. </p> </li> <li className="mb-4"> <span className="font-bold">Tananyag minősége és relevanciája:</span> <p className="mt-2"> A hagyományos oktatásban gyakran előfordul, hogy a tananyag elavult vagy nem releváns a munkaerőpiac aktuális igényeihez képest. Az e-learning platformunkon a felhasználók által létrehozott kurzusok révén biztosítjuk, hogy a tananyagok naprakészen és a valós igények szerint készüljenek el. Így a felhasználók mindig aktuális, releváns információkhoz juthatnak. </p> </li> <li className="mb-4"> <span className="font-bold">Motiváció és elköteleződés fenntartása:</span> <p className="mt-2"> Az online tanulás során gyakran előfordul, hogy a diákok elveszítik a motivációjukat, mivel a tanulási élmény kevésbé interaktív és szórakoztató, mint a hagyományos osztálytermi környezetben. Az e-learning platformunk gamifikációs elemeket, mint például XP gyűjtést, küldetéseket és ranglistákat alkalmaz, hogy fokozza a tanulók elköteleződését. Ezen elemek segítségével a tanulók célokat tűzhetnek ki maguk elé, ami növeli a tanulás iránti lelkesedésüket. </p> </li> <li className="mb-4"> <span className="font-bold">Közösségi tanulás hiánya:</span> <p className="mt-2"> A hagyományos oktatási rendszerekben a tanulók gyakran rendelkeznek lehetőséggel arra, hogy közvetlen kapcsolatban álljanak tanáraikkal és társaikkal. Az online környezetben azonban ezek a lehetőségek gyakran hiányoznak. Az e-learning platformunk közösségi funkciókat kínál, amelyek lehetővé teszik a felhasználók közötti interakciót, tapasztalatmegosztást és együttműködést, ezáltal erősítve a közösségi tanulást. </p> </li> <li className="mb-4"> <span className="font-bold">Technikai nehézségek:</span> <p className="mt-2"> Az online tanulás során a felhasználók gyakran találkoznak technikai problémákkal, mint például a lassú betöltési idő, rendszerleállások vagy használhatatlan felületek. Ezen problémák megnehezítik a tanulási élményt, és csökkenthetik a felhasználók motivációját. Az e-learning platformunk célja, hogy felhasználóbarát és megbízható technológiát biztosítson, amely zökkenőmentes tanulási élményt nyújt. </p> </li> <li className="mb-4"> <span className="font-bold">Adatvédelem és biztonság:</span> <p className="mt-2"> Az online platformok használatakor a felhasználók aggódnak a személyes adataik védelme miatt. A platformunk kiemelt figyelmet fordít az adatbiztonságra, és biztosítja, hogy a felhasználók adatai biztonságban legyenek, ezzel növelve a bizalmat és a felhasználói élményt. </p> </li> </ul>
+
+        <p className="pl-[5.3rem] pt-6">
+        Ezek a problémák gyakoriak az e-learning platformok világában, és az általunk tervezett megoldások célja, hogy ezekre a kihívásokra reagálva egy olyan innovatív és felhasználóbarát platformot hozzunk létre, amely segíti a tanulást, és javítja a felhasználói élményt.        </p>
+
         <h2 id="termekhelye" className="ml-8 text-xl font-bold text-sky-600 pt-6">2.3. A termék helye:</h2>
         <ul>
           <li className="pl-[5.3rem] p-6">Az új e-learning platform piaci pozíciójának meghatározása során fontos figyelembe venni az online oktatásban tapasztalható gyors változásokat és az innovációra irányuló növekvő igényeket. Az e-learning szektor dinamikus növekedése nemcsak a technológiai fejlődésnek köszönhető, hanem az oktatási paradigmaváltásnak is, amely az információs társadalom igényeihez igazodva egyre inkább a digitalizációra, valamint a tanulási folyamat testreszabhatóságára helyezi a hangsúlyt.</li>
@@ -120,9 +134,7 @@ export default function Home() {
           <li className="pl-[5.3rem]">
           ○ Az e-learning platform elsődleges célcsoportjai között szerepelnek a különböző korosztályú és képzettségű tanulók, az oktatók, valamint az oktatási intézmények és vállalatok. A diákok esetében a platform célja, hogy egy andragógiai megközelítés szerint építse fel a tananyagot, amely különösen a felnőttképzés területén bizonyul hatékonynak. Ez a módszer a tanulói autonómiára, a gyakorlati ismeretekre és az önirányított tanulásra helyezi a hangsúlyt, ezzel növelve az elkötelezettséget és a tanulási folyamat hatékonyságát.
           </li>
-          <li className="pl-[5.3rem] pt-6">
-          ○ Az oktatók számára a platform lehetőséget kínál arra, hogy metakognitív stratégiákat alkalmazzanak a tanítás során, amelyek révén nemcsak a tudás átadására koncentrálnak, hanem a tanulók tanulási képességeinek fejlesztésére is. Az ilyen típusú megközelítés különösen értékes a komplex és szakmai tartalmak esetében, ahol a tudás folyamatos frissítése és az egyénre szabott tanulási módszerek kialakítása kiemelkedő jelentőségű.
-          </li>
+
           <li className="pl-[5.3rem] pt-6">
           ○ A vállalatok és oktatási intézmények számára a platform egyik legnagyobb előnye a skálázhatóság és a flexibilitás. A platform lehetőséget biztosít arra, hogy a cégek és iskolák saját tanulási környezetet hozzanak létre, ahol belső képzési anyagokat és egyedi tanterveket valósíthatnak meg. Ez különösen fontos a hibrid oktatási modellek esetében, ahol a távoktatás és a személyes jelenlét együttesen alkalmazott módszertanokban valósul meg. A platform alkalmas arra, hogy az oktatási folyamatot zökkenőmentesen támogassa mindkét környezetben.
           </li>
@@ -135,7 +147,7 @@ export default function Home() {
           ○ A platform különlegessége az adaptív tanulásban rejlik, amely egyre nagyobb figyelmet kap az oktatási technológiák területén. Az adaptív tanulási rendszerek képesek algoritmikus analízis segítségével követni a tanulók teljesítményét, és automatikusan módosítani a tananyagot annak érdekében, hogy az egyénre szabott oktatási útvonalat kínáljon. Ez különösen fontos a tanulási variabilitás kezelésében, ahol a diákok eltérő tempóban és módon sajátítják el a tananyagot.
           </li>
           <li className="pl-[5.3rem] pt-6">
-          ○ A platform beépített analitikai dashboardjai révén az oktatók és az intézmények könnyedén nyomon követhetik a tanulók előrehaladását, valamint az oktatási program hatékonyságát. Ezek az eszközök nemcsak a tanulói teljesítmény mérésére szolgálnak, hanem lehetővé teszik a tananyagok optimalizálását és a pedagógiai módszerek finomhangolását is.
+          ○ A platform beépített analitikai dashboardjai révén a tanulók nyomon követhetik az előrehaladásukat, valamint a tanulásuk hatékonyságát, illetve ezzel együtt a tananyag készítői is elemezhetik a kurzusaik minőségét és teljesíthetőségét. Ezek az eszközök nemcsak a tanulói teljesítmény mérésére szolgálnak, hanem lehetővé teszik a tananyagok optimalizálását is.
           </li>
           <li className="pl-[5.3rem] pt-6">
           ○ A blokklánc-technológia alkalmazása a tanulói eredmények és tanúsítványok hitelesítésére egy újabb innováció, amely biztosítja a tanulási eredmények átláthatóságát és csalásmentességét. A blokkláncon alapuló tanúsítványok lehetővé teszik, hogy a tanulók hitelesített, ellenőrizhető bizonyítványokat szerezzenek, amelyek világszerte elismertek. Ez a technológia hosszú távon hozzájárulhat ahhoz, hogy a tanulási eredmények megbízhatóak és transzparensek legyenek.
@@ -159,7 +171,8 @@ export default function Home() {
           </li>
         </ul>
 
-        <h2 className="ml-8 text-xl font-bold text-sky-600 pt-6">3. Érintettek és felhasználók</h2>
+        <h2 className="ml-8 text-xl font-bold text-sky-600 pt-6 inline-block">3. Érintettek és felhasználók, <h2 className="ml-8 text-xl font-bold text-sky-600 pt-6 inline-block">3.1 Az érintettek összefoglalása</h2>, <h2 className="ml-8 text-xl font-bold text-sky-600 pt-6 inline-block">3.2 Az felhasználók összefoglalása</h2></h2>
+
         
         <p className="pl-[5.3rem] pt-6">
           A "Learnify" rendszer fejlesztése és üzemeltetése során több érintett csoport és felhasználói réteg kerül beazonosításra, amelyek szerepe és viszonya eltérő az alkalmazáshoz és a szervezethez képest.
@@ -167,20 +180,10 @@ export default function Home() {
 
         <ul className="pl-[5.3rem] pt-6 list-disc">
           <li className="mb-4">
-            <span className="font-bold pt-6">Oktatási intézmények és oktatók:</span>
+            <span className="font-bold pt-6">Regisztrált felhasználók:</span>
             <ul className="pl-8 mt-2 list-disc">
-              <li><span className="font-bold pt-6">Beosztás:</span> Tanárok, professzorok, oktatási koordinátorok.</li>
-              <li><span className="font-bold">Viszony az alkalmazáshoz:</span> Ők azok, akik a tartalmakat létrehozzák és menedzselik a platformon, valamint követik a diákok előrehaladását. Feladatuk, hogy a tananyagokat hozzáigazítsák a platform lehetőségeihez, kihasználva a gamifikáció nyújtotta előnyöket.</li>
-              <li><span className="font-bold">Kapcsolat a szervezettel:</span> Az oktatók és az intézmények számára a "Learnify" egy olyan eszköz, amely megkönnyíti és hatékonyabbá teszi az oktatási folyamatokat.</li>
-            </ul>
-          </li>
-
-          <li className="mb-4">
-            <span className="font-bold">Diákok és tanulók:</span>
-            <ul className="pl-8 mt-2 list-disc">
-              <li><span className="font-bold">Beosztás:</span> Egyetemi hallgatók, középiskolai diákok, valamint felnőttképzésben részt vevő tanulók.</li>
-              <li><span className="font-bold">Viszony az alkalmazáshoz:</span> Ők a rendszer elsődleges felhasználói, akik a platformon keresztül tanulnak és részt vesznek a különböző kurzusokban. Számukra a gamifikáció segít fenntartani az érdeklődést és motivációt a tanulás során.</li>
-              <li><span className="font-bold">Kapcsolat a szervezettel:</span> A diákok közvetlenül a tananyagot és az oktatókat kapcsolják össze az alkalmazáson keresztül, így aktív részesei a tanulási folyamatnak.</li>
+              <li><span className="font-bold pt-6">Beosztás:</span> Tanulók, a program felhasználói.</li>
+              <li><span className="font-bold">Viszony az alkalmazáshoz:</span> Ők a rendszer elsődleges felhasználói, akik a platformon keresztül tanulnak és részt vesznek a különböző kurzusokban. Számukra a gamifikáció segít fenntartani az érdeklődést és motivációt a tanulás során. Emellett szintén ők azok, akik a tartalmakat létrehozzák és menedzselik a platformon. Feladatuk, hogy a tananyagokat hozzáigazítsák a platform lehetőségeihez, és naprakészen tartsák a kurzusaikat.</li>
             </ul>
           </li>
 
@@ -207,11 +210,151 @@ export default function Home() {
           Az összes érintett és felhasználó azonosítása és bevonása kritikus lépés annak érdekében, hogy az alkalmazás a felhasználói igényeknek megfelelően működjön, és minden érintett számára hasznos funkciókat kínáljon.
         </p>
 
-        <h2 className="ml-8 text-xl font-bold text-sky-600 pt-6">3.1 Az érintettek összefoglalása</h2>
-        <h2 className="ml-8 text-xl font-bold text-sky-600 pt-6">3.2 Az felhasználók összefoglalása</h2>
+        
         <h2 className="ml-8 text-xl font-bold text-sky-600 pt-6">3.3. Felhasználói környezet:</h2>
+        <p className="pl-[5.3rem] pt-6">
+          Az alkalmazás egy weboldalon keresztül érhető el, melyet egy felhasználó bármilyen böngészőből megnyithat, akár mobilról is. Mobil esetén ajánlott a "Learnify" mobilalkalmazás használata, mely segítségével könnyebben kizárhatóak egy böngésző zavaró részei.
+        </p>
         <h2 className="ml-8 text-xl font-bold text-sky-600 pt-6">3.4 Illetékesek adatai</h2>
+
+        <p className="pl-[5.3rem] pt-6 font-bold">A platform fejlesztői esetén:</p>
+
+        <ul className="pl-[7rem] pt-4 list-disc">
+  <li className="mb-4">
+    <span className="font-bold">Név:</span>
+    <p className="mt-2">
+      A fejlesztők teljes neve, amely segít azonosítani a csapat tagjait.
+    </p>
+  </li>
+
+  <li className="mb-4">
+    <span className="font-bold">Email cím:</span>
+    <p className="mt-2">
+      A fejlesztők email címe, amely lehetővé teszi a kommunikációt és a projektekhez kapcsolódó információk megosztását.
+    </p>
+  </li>
+
+  <li className="mb-4">
+    <span className="font-bold">Szerepkör:</span>
+    <p className="mt-2">
+      A fejlesztő pozíciója a projektben (pl. backend fejlesztő, frontend fejlesztő, UX/UI tervező), amely segít megérteni a felelősségi köröket.
+    </p>
+  </li>
+  </ul>
+
+  <p className="pl-[5.3rem] pt-6 font-bold">Üzleti partnerek, vállalatok esetén:</p>
+
+  <ul className="pl-[7rem] pt-4 list-disc">
+
+  
+
+  <li className="mb-4">
+    <span className="font-bold">Cég neve:</span>
+    <p className="mt-2">
+      A vállalat neve, amely a platformot igénybe veszi, így könnyen nyomon követhető a szolgáltatás igénybe vétele.
+    </p>
+  </li>
+
+  <li className="mb-4">
+    <span className="font-bold">Kapcsolattartó személy:</span>
+    <p className="mt-2">
+      A cég azon képviselője, aki a platform használatával kapcsolatos ügyekért felelős, beleértve a nevét és elérhetőségeit.
+    </p>
+  </li>
+
+  <li className="mb-4">
+    <span className="font-bold">Email cím:</span>
+    <p className="mt-2">
+      A vállalat kapcsolattartó személyének email címe, amely lehetővé teszi a gyors és hatékony kommunikációt.
+    </p>
+  </li>
+
+  <li className="mb-4">
+    <span className="font-bold">Szerződéses adatok:</span>
+    <p className="mt-2">
+      Az igénybevett szolgáltatások részletei, beleértve a szerződés időtartamát, a választott csomagot és a fizetési feltételeket.
+    </p>
+  </li>
+
+  <li className="mb-4">
+    <span className="font-bold">Használati statisztikák:</span>
+    <p className="mt-2">
+      A vállalat által a platformon végzett tevékenységek nyomon követése, például a kurzusok száma, a felhasználók aktivitása és a megszerzett XP pontok.
+    </p>
+  </li>
+
+  <li className="mb-4">
+    <span className="font-bold">Visszajelző űrlapok:</span>
+    <p className="mt-2">
+      A vállalatok által küldött visszajelzések, amelyek segítenek a platform folyamatos fejlesztésében és az igények jobb megértésében.
+    </p>
+  </li>
+
+  <li className="mb-4">
+    <span className="font-bold">Javasolt funkciók:</span>
+    <p className="mt-2">
+      A vállalatok által javasolt új funkciók és szolgáltatások, amelyek hozzájárulhatnak a platform fejlesztéséhez.
+    </p>
+  </li>
+</ul>
+
+
         <h2 className="ml-8 text-xl font-bold text-sky-600 pt-6">3.5 Felhasználók adatai</h2>
+        <ul className="pl-[6rem] pt-4 list-disc">
+          <li className="mb-4">
+            <span className="font-bold">Felhasználónév:</span>
+            <p className="mt-2">
+            Egyedi azonosító, amely a felhasználót képviseli a platformon, és amelyen keresztül a közösségi interakciók során mások azonosíthatják.
+            </p>
+          </li>
+
+          <li className="mb-4">
+            <span className="font-bold">Email cím:</span>
+            <p className="mt-2">
+            A felhasználó email címe, amely lehetővé teszi a kommunikációt, a regisztráció megerősítését, és a jelszó helyreállítást.
+            </p>
+          </li>
+
+          <li className="mb-4">
+            <span className="font-bold">Név:</span>
+            <p className="mt-2">
+            A felhasználó teljes neve, amely segít azonosítani őt a rendszerben.
+            </p>
+          </li>
+
+          <li className="mb-4">
+            <span className="font-bold">Profilkép:</span>
+            <p className="mt-2">
+            A felhasználók feltölthetnek egy profilképet, amely segíti az azonosítást és a közösségi élményt.
+            </p>
+          </li>
+
+          <li className="mb-4">
+            <span className="font-bold">Biográfia:</span>
+            <p className="mt-2">
+              A felhasználók írhatnak egy rövid bemutatkozót, amely segít másoknak megismerni őket és érdeklődési köreiket.
+            </p>
+          </li>
+
+          <li className="mb-4">
+            <span className="font-bold">Tanulási előzmények:</span>
+            <p className="mt-2">
+              Elvégzett kurzusok, Elért XP és rangok, Küldetések és kihívások.
+            </p>
+          </li>
+          <li className="mb-4">
+            <span className="font-bold">Beállítások és preferenciák:</span>
+            <p className="mt-2">
+            A felhasználók megadhatják, hogy milyen értesítéseket szeretnének kapni, például új kurzusok vagy rendszerfrissítések kapcsán, ezen kívül még a platform megjelenített nyelve is személyre szabható.
+            </p>
+          </li>
+          <li className="mb-4">
+            <span className="font-bold">Fizetési információk (ha szükséges):</span>
+            <p className="mt-2">
+            A felhasználók által megadott banki vagy kártyaadatai, amelyek a fizetős kurzusokhoz szükségesek, illetve a bankszámlaszámuk, amelyek a kifizetésekhez szükségesek. Ezen adatokat a biztonság és adatvédelem érdekében a platform nem tárolja, hanem megbízható harmadik fél szolgáltatón keresztül kezeli. (Stripe)
+            </p>
+          </li>
+        </ul>
         <h2 className="ml-8 text-xl font-bold text-sky-600 pt-6">4. A végtermék áttekintése</h2>
         <p className="pl-[5.3rem] pt-6">
           A "Learnify" egy webalapú, gamifikációval támogatott e-learning platform, amely az online oktatás és képzés élményét teszi interaktívabbá és motiválóbbá. Az alkalmazás célja, hogy növelje a tanulók elköteleződését és javítsa a tanulási eredményeket különböző játékos elemek és ösztönző mechanizmusok beépítésével.
@@ -244,7 +387,7 @@ export default function Home() {
           <li className="mb-4">
             <span className="font-bold">Testreszabhatóság:</span>
             <p className="mt-2">
-              A "Learnify" rugalmasan testreszabható mind az egyéni tanulók, mind az oktatási intézmények vagy vállalatok számára, lehetővé téve a kurzusok személyre szabását, valamint a haladás és teljesítmény nyomon követését.
+              A "Learnify" rugalmasan testreszabható a kurzuskészítők számára, lehetővé téve a kurzus megjelenésének személyre szabását, valamint a tananyag tagolását.
             </p>
           </li>
 
@@ -258,7 +401,7 @@ export default function Home() {
           <li className="mb-4">
             <span className="font-bold">Integrációk:</span>
             <p className="mt-2">
-              A platform képes integrálódni más tanulásmenedzsment rendszerekkel (LMS), valamint videókonferencia-eszközökkel, így egy átfogó tanulási környezetet biztosít az oktatóknak és tanulóknak.
+              A platform képes integrálódni más tanulásmenedzsment rendszerekkel (LMS), valamint videókonferencia-eszközökkel, így egy átfogó tanulási környezetet biztosít a tanulóknak.
             </p>
           </li>
         </ul>
@@ -274,13 +417,13 @@ export default function Home() {
           <li className="mt-2">
             <span className="font-bold">Felhasználói felület (UI):</span>
             <p className="mt-1">
-              A "Learnify" felhasználói felülete web- és mobilalkalmazásként érhető el, biztosítva az intuitív navigációt és a felhasználói élményt mind az oktatók, mind a tanulók számára.
+              A "Learnify" felhasználói felülete web- és mobilalkalmazásként érhető el, biztosítva az intuitív navigációt és a kényelmes felhasználói élményt.
             </p>
           </li>
           <li className="mt-2">
             <span className="font-bold">Tananyagkezelő rendszer:</span>
             <p className="mt-1">
-              A platform tartalmaz egy tananyagkezelő modult, amely lehetővé teszi a kurzusok létrehozását, szerkesztését és kezelését. Az oktatók könnyedén feltölthetik a tananyagaikat, és testreszabhatják azokat a kurzus követelményei szerint.
+              A platform tartalmaz egy tananyagkezelő modult, amely lehetővé teszi a kurzusok létrehozását, szerkesztését és kezelését. Kurzust bárki ingyenesen készíthet, aki sikeresen elvégzi az ingyenes "Kurzuskészítés a Learnify-on" kurzust, ezzel megismertetve a felhasználókkal a tananyagszerkesztő főbb funkcióit. A kurzuskészítők könnyedén feltölthetik a tananyagaikat, és testreszabhatják azokat az intuitív tananyagszerkesztő segítségével.
             </p>
           </li>
           <li className="mt-2">
@@ -292,7 +435,13 @@ export default function Home() {
           <li className="mt-2">
             <span className="font-bold">Értékelési és nyomon követési rendszer:</span>
             <p className="mt-1">
-              Ez a modul biztosítja a tanulók teljesítményének követését, valamint a kvízek és tesztek automatikus kiértékelését. Az eredmények és a haladási adatok megjelennek mind a tanulók, mind az oktatók számára.
+              Ez a modul biztosítja a tanulók teljesítményének követését, valamint a kvízek és tesztek automatikus kiértékelését. Az eredmények és a haladási adatok megjelennek mind a tanulók, mind a kurzus készítői számára.
+            </p>
+          </li>
+          <li className="mt-2">
+            <span className="font-bold">Kurzuskészítők kifizetési rendszere:</span>
+            <p className="mt-1">
+              Ez a modul biztosítja a kurzusokból érkező bevétel a készítőkre eső részét, melyet a rendszer minden hónapban automatikusan kiutal egy bizonyos összeg felett a készítők által beállított fizetési móddal. A készítők részletes statisztikákat láthatnak a bevételeikről akár havi lebontásban is.
             </p>
           </li>
         </ul>
@@ -305,10 +454,10 @@ export default function Home() {
 
         <ul className="pl-20 list-disc">
           <li className="mt-2">
-            <span className="font-bold">Videókonferencia-eszközök:</span> A platform integrálható népszerű videókonferencia-szoftverekkel, mint a Zoom és a Microsoft Teams, hogy a tanárok élő órákat tarthassanak közvetlenül az alkalmazáson belül.
+            <span className="font-bold">Videókonferencia-eszközök:</span> A platform integrálható népszerű videókonferencia-szoftverekkel, mint a Zoom és a Microsoft Teams, hogy a diákok és a kurzusok készítői akár közvetlenül is konzultálhassanak.
           </li>
           <li className="mt-2">
-            <span className="font-bold">Más LMS-ekkel való integráció:</span> A "Learnify" API-n keresztül csatlakozhat más tanulásmenedzsment rendszerekhez (például Moodle), így az intézmények könnyen importálhatják meglévő kurzusaikat és tanulói adataikat.
+            <span className="font-bold">Más LMS-ekkel való integráció:</span> A "Learnify" API-n keresztül csatlakozhat más tanulásmenedzsment rendszerekhez (például Udemy), így a felhasználók könnyen importálhatják a már máshol létrehozott kurzusaikat.
           </li>
           <li className="mt-2">
             <span className="font-bold">Harmadik fél alkalmazásai:</span> A platform nyitott API-t biztosít harmadik fél által fejlesztett alkalmazások számára, így a felhasználók további tanulási eszközöket, mint például virtuális laboratóriumok vagy szimulációs programok, könnyen integrálhatnak a rendszerbe.
@@ -316,6 +465,70 @@ export default function Home() {
         </ul>
 
         <h2 className="ml-8 text-xl font-bold text-sky-600 pt-6">4.2. A termék használatának előnyei:</h2>
+
+        
+          <table className="ml-12 mt-6 w-[70%]">
+            <thead>
+              <tr>
+                <th className="border-2 border-gray-300 bg-gray-100 text-left px-4 py-2 text-gray-600 uppercase tracking-wider">
+                  A megrendelő haszna
+                </th>
+                <th className="border-2 border-gray-300 bg-gray-100 text-left px-4 py-2 text-gray-600 uppercase tracking-wider">
+                  Az ezt támogató rendszer jellemzői
+                </th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td className="border-2 border-gray-300 px-4 py-2 text-gray-700">
+                A felhasználók motivációja nő a tanulás során
+                </td>
+                <td className="border-2 border-gray-300 px-4 py-2 text-gray-700">
+                Gamifikációs elemek, mint az XP gyűjtés, küldetések és jutalmak segítik a folyamatos résztvételt és elköteleződést
+                </td>
+              </tr>
+              <tr>
+                <td className="border-2 border-gray-300 px-4 py-2 text-gray-700">
+                A tanulás rugalmasan követhető a saját tempóban
+                </td>
+                <td className="border-2 border-gray-300 px-4 py-2 text-gray-700">
+                A felhasználók saját maguk választhatják meg a tanulási ütemüket, és új kurzusokat oldhatnak fel a meglévők teljesítése alapján
+                </td>
+              </tr>
+              <tr>
+                <td className="border-2 border-gray-300 px-4 py-2 text-gray-700">
+                Költséghatékony tanulási lehetőségek bárki számára                </td>
+                <td className="border-2 border-gray-300 px-4 py-2 text-gray-700">
+                Bárki tölthet fel kurzusokat, így az elérhető tananyag széleskörű, alacsony költséggel vagy akár ingyen is hozzáférhető                </td>
+              </tr>
+              <tr>
+                <td className="border-2 border-gray-300 px-4 py-2 text-gray-700">
+                Személyre szabott tanulási élmény                </td>
+                <td className="border-2 border-gray-300 px-4 py-2 text-gray-700">
+                A felhasználók egyéni preferenciák és célok alapján választhatnak kurzusokat, és személyre szabott ajánlásokkal segíti őket a rendszer                </td>
+              </tr>
+              <tr>
+                <td className="border-2 border-gray-300 px-4 py-2 text-gray-700">
+                A felhasználó garantáltan a megfelelő kurzust tudja kiválasztani                </td>
+                <td className="border-2 border-gray-300 px-4 py-2 text-gray-700">
+                Más felhasználók értékelhetnek kurzusokat és megjegyzéseket is fűzhetnek hozzájuk, így aki épp kurzust keres, az megbizonyosodhat róla, hogy a tananyag által átadott tudás megfelelő-e                </td>
+              </tr>
+              <tr>
+                <td className="border-2 border-gray-300 px-4 py-2 text-gray-700">
+                Könnyű tanulás bárhonnan, bármikor                </td>
+                <td className="border-2 border-gray-300 px-4 py-2 text-gray-700">
+                A platform bármilyen eszközről elérhető, legyen az számítógép, tablet vagy okostelefon, így a felhasználók szabadon tanulhatnak, amikor csak idejük engedi                </td>
+              </tr>
+              <tr>
+                <td className="border-2 border-gray-300 px-4 py-2 text-gray-700">
+                Egyszerűsödik a naprakész tudás megszerzése                </td>
+                <td className="border-2 border-gray-300 px-4 py-2 text-gray-700">
+                A kurzusokat is felhasználók készítik, így legtöbbször a tananyag naprakész, rendszeresen van frissítve, hogy a tanulók pozitív értékeléseket adjanak le az adott kurzusra.                </td>
+              </tr>
+            </tbody>
+          </table>
+        
+
         <h2 className="ml-8 text-xl font-bold text-sky-600 pt-6">4.3. Feltételezések és függőségek:</h2>
         <ul className="my-2 ml-8">
           <li className="my-2 ml-8 list-disc list-inside font-bold pt-6">Feltételezések:</li>
@@ -366,7 +579,7 @@ export default function Home() {
           <li className="pl-[4.8rem]">
           A projekt jelentős mértékben támaszkodik külső szolgáltatók által
         biztosított rendszerekre, mint például a fizetési átjárók (pl. Stripe,
-        PayPal) és felhőszolgáltatások (AWS, Google Cloud). Ezek megbízhatósága
+        PayPal) és felhőszolgáltatások (Vercel, AWS). Ezek megbízhatósága
         kritikus, mivel közvetlen hatással vannak a platform működésére és a
         felhasználói élmény minőségére.
           </li>
@@ -441,7 +654,7 @@ export default function Home() {
           <span className="font-bold">Szerverek és felhőalapú tárolás:</span>
         </p>
         <ul className="pl-[7rem] list-disc">
-          <li>Felhőalapú szerver és tárolási költség (AWS vagy Azure): 1.500.000 Ft / év</li>
+          <li>Felhőalapú szerver és tárolási költség (AWS vagy Vercel): 1.500.000 Ft / év</li>
         </ul>
 
         <p className="pl-[5.3rem] pt-2">
@@ -451,14 +664,7 @@ export default function Home() {
           <li>Fejlesztői szoftverek és licenszek költsége: 800.000 Ft</li>
         </ul>
 
-        <h3 className="ml-12 text-lg font-bold pt-4">3. Üzembe állítás és karbantartás</h3>
-
-        <p className="pl-[5.3rem] pt-2">
-          <span className="font-bold">Bevezetési költségek:</span>
-        </p>
-        <ul className="pl-[7rem] list-disc">
-          <li>Az alkalmazás üzembe helyezése és oktatási programok kidolgozása: 3.000.000 Ft</li>
-        </ul>
+        <h3 className="ml-12 text-lg font-bold pt-4">3. Karbantartás</h3>
 
         <p className="pl-[5.3rem] pt-2">
           <span className="font-bold">Karbantartás és frissítések (éves költség):</span>
@@ -472,103 +678,54 @@ export default function Home() {
         <ul className="pl-[7rem] list-disc">
           <li>Fejlesztési fázis összesen: 23.000.000 Ft</li>
           <li>Infrastruktúra és licenszek: 2.300.000 Ft</li>
-          <li>Bevezetés és karbantartás (1. év): 5.000.000 Ft</li>
-          <li className="font-bold">Teljes költség (első év): 30.300.000 Ft</li>
+          <li>Bevezetés és karbantartás (1. év): 2.000.000 Ft</li>
+          <li className="font-bold">Teljes költség (első év): 27.300.000 Ft</li>
         </ul>
 
         <h2 id="installacio" className="ml-8 text-xl font-bold text-sky-600 pt-6">4.5. Installáció</h2>
 
-        <p className="pl-[5.3rem] pt-6">
-          A "Learnify" rendszer telepítése során a következő követelmények és lépések szükségesek a sikeres üzembe helyezéshez:
+        <p className="pl-[3.1rem] pt-6">
+          A "Learnify" egy weboldalon keresztül elérhető, melynek rendszere központilag, a projekt elkészítéséért felelős vállalat szerverein fut, így nincs szükség telepítésre.
         </p>
 
-        <h3 className="ml-12 text-lg font-bold pt-4">1. Hardver követelmények</h3>
+        <p className="pl-[3.1rem] pt-6">
+          A "Learnify" mobilalkalmazás egy beágyazott "headless" böngészőt tartalmaz, amely a weboldal mobil verzióját tölti be.
+        </p>
+
+        <h3 className="ml-12 text-lg font-bold pt-4">Mobilalkalmazás telepítése</h3>
 
         <p className="pl-[5.3rem] pt-2">
-          <span className="font-bold">Szerver:</span>
+          <span className="font-bold">Android:</span>
         </p>
         <ul className="pl-[7rem] list-disc">
-          <li>Legalább 8 GB RAM és 4 CPU mag.</li>
-          <li>Legalább 100 GB szabad tárhely, ideális esetben SSD a gyorsabb teljesítmény érdekében.</li>
+          <li>A Play Áruház-ból a "Learnify" nevű alkalmazás telepítése után azonnal futtatható.</li>
         </ul>
+
+        <p className="pl-[5.3rem] pt-2">
+          <span className="font-bold">iOS & iPadOS:</span>
+        </p>
+        <ul className="pl-[7rem] list-disc">
+          <li>Az App Store-ból a "Learnify" nevű alkalmazás telepítése után azonnal futtatható.</li>
+        </ul>
+
+        <h3 className="ml-12 text-lg font-bold pt-4">Követelmények</h3>
 
         <p className="pl-[5.3rem] pt-2">
           <span className="font-bold">Hálózati követelmények:</span>
         </p>
         <ul className="pl-[7rem] list-disc">
           <li>Stabil internetkapcsolat (minimum 10 Mbps sebesség).</li>
-          <li>Tűzfal beállítások a külső hozzáférés biztosításához és a biztonsági protokollok betartásához.</li>
-        </ul>
-
-        <h3 className="ml-12 text-lg font-bold pt-4">2. Szoftver követelmények</h3>
-
-        <p className="pl-[5.3rem] pt-2">
-          <span className="font-bold">Operációs rendszer:</span>
-        </p>
-        <ul className="pl-[7rem] list-disc">
-          <li>Linux alapú szerver (pl. Ubuntu, CentOS) vagy Windows Server.</li>
         </ul>
 
         <p className="pl-[5.3rem] pt-2">
-          <span className="font-bold">Szoftveres környezet:</span>
+          <span className="font-bold">Szoftveres követelmények:</span>
         </p>
         <ul className="pl-[7rem] list-disc">
-          <li>Webszerver: Nginx vagy Apache.</li>
-          <li>Adatbázis: MySQL vagy PostgreSQL.</li>
-          <li>Programozási nyelv: Node.js, Python vagy PHP.</li>
+          <li>Android esetén Android 12, vagy újabb</li>
+          <li>iOS esetén iOS 15, vagy újabb</li>
+          <li>iPadOS esetén iOS 15, vagy újabb</li>
         </ul>
 
-        <p className="pl-[5.3rem] pt-2">
-          <span className="font-bold">Egyéb szükséges szoftverek:</span>
-        </p>
-        <ul className="pl-[7rem] list-disc">
-          <li>Docker a konténerizáláshoz (opcionális).</li>
-          <li>SSL tanúsítvány a biztonságos HTTPS kapcsolat létrehozásához.</li>
-        </ul>
-
-        <h3 className="ml-12 text-lg font-bold pt-4">3. Telepítő program</h3>
-
-        <p className="pl-[5.3rem] pt-2">
-          <span className="font-bold">Telepítő csomag:</span>
-        </p>
-        <ul className="pl-[7rem] list-disc">
-          <li>A "Learnify" telepítő programja tartalmazza a szükséges fájlokat és konfigurációkat. A telepítés lépései a dokumentált útmutató alapján történnek.</li>
-        </ul>
-
-        <h3 className="ml-12 text-lg font-bold pt-4">4. Betanítás és üzemeltető személyzet</h3>
-
-        <p className="pl-[5.3rem] pt-2">
-          <span className="font-bold">Betanítási program:</span>
-        </p>
-        <ul className="pl-[7rem] list-disc">
-          <li>Az üzemeltető személyzet részére betanítás szükséges, amely magában foglalja:</li>
-          <li>A rendszer funkcióinak és kezelőfelületének megismerését.</li>
-          <li>A karbantartási és frissítési eljárások betanítását.</li>
-          <li>A hibakezelési és technikai támogatási folyamatok ismertetését.</li>
-        </ul>
-
-        <p className="pl-[5.3rem] pt-2">
-          <span className="font-bold">Támogatási dokumentáció:</span>
-        </p>
-        <ul className="pl-[7rem] list-disc">
-          <li>A telepítés során a rendszerhez mellékelni kell a felhasználói és üzemeltetői dokumentációkat, amelyek útmutatást nyújtanak a mindennapi használathoz és a hibaelhárításhoz.</li>
-        </ul>
-
-        <h3 className="ml-12 text-lg font-bold pt-4">5. Tesztelési fázis</h3>
-
-        <p className="pl-[5.3rem] pt-2">
-          <span className="font-bold">Előzetes tesztelés:</span>
-        </p>
-        <ul className="pl-[7rem] list-disc">
-          <li>A telepítést követően a rendszer funkcionalitásának tesztelése szükséges, hogy biztosítsa a megfelelő működést és a felhasználói élményt.</li>
-        </ul>
-
-        <p className="pl-[5.3rem] pt-2">
-          <span className="font-bold">Visszajelzés gyűjtése:</span>
-        </p>
-        <ul className="pl-[7rem] list-disc">
-          <li>A tesztelési fázis során a felhasználói visszajelzések gyűjtése és kiértékelése elengedhetetlen a végső finomításokhoz.</li>
-        </ul>
 
         <h2 id="vegtermekjellemzoi" className="ml-8 text-xl font-bold text-sky-600 pt-6">5. A végtermék jellemzői, biztosított szolgáltatások</h2>
         <p className="pl-[5.3rem] pt-6">
@@ -609,7 +766,7 @@ export default function Home() {
   <li className="mb-4">
     <span className="font-bold">Testreszabható kurzusok</span>
     <p className="mt-2"><span className="font-bold">Prioritás:</span> Alacsony</p>
-    <p>Az oktatók lehetőséget kapnak arra, hogy a tananyagot az igényeikhez és a célcsoportjukhoz igazítsák, testreszabva a kurzusokat a résztvevők szintjének és érdeklődésének megfelelően.</p>
+    <p>Az kurzuskészítők lehetőséget kapnak arra, hogy a tananyagot az igényeikhez és a célcsoportjukhoz igazítsák, testreszabva a kurzusokat a résztvevők szintjének és érdeklődésének megfelelően.</p>
   </li>
 
   <li className="mb-4">
@@ -684,7 +841,7 @@ export default function Home() {
           A betöltési idők minimalizálása létfontosságú: az oldalak válaszidejének 3 másodpercen belül kell maradnia. Ez a sebesség biztosítja a felhasználók elkötelezettségét, és minimalizálja a lemorzsolódás kockázatát a várakozási idő miatt.
           </li>
 
-          <li className="my-2 ml-8 font-bold indent-8 list-disc list-inside pt-6">Optimális oldal betöltési sebesség:</li>
+          <li className="my-2 ml-8 font-bold indent-8 list-disc list-inside pt-6">Biztonság:</li>
           <li className="pl-[5.3rem] pt-6">
           A felhasználói adatok védelme prioritás, amelyet csúcstechnológiás biztonsági megoldásokkal (SSL/TLS titkosítás, kétlépcsős hitelesítés) és az adatvédelem legszigorúbb előírásainak betartásával kell garantálni. Az adatbiztonság iránti bizalom növeli a felhasználói hűséget és a platform iránti elkötelezettséget.
           </li>
