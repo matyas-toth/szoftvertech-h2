@@ -14,8 +14,8 @@ export default function Home() {
     { number: "2.2.", title: "A probléma megfogalmazása", id: "problema" },
     { number: "2.3.", title: "A termék helye", id: "termekhelye" },
     { number: "3.", title: "Érintettek és felhasználók", id: "erintettekesfelhasznalok" },
-    { number: "3.1.", title: "Az érintettek összefoglalása", id: "erintettekosszefoglalasa" },
-    { number: "3.2.", title: "Az felhasználók összefoglalása", id: "felhasznalokosszefoglalasa" },
+    { number: "3.1.", title: "Az érintettek összefoglalása", id: "erintettekesfelhasznalok" },
+    { number: "3.2.", title: "Az felhasználók összefoglalása", id: "erintettekesfelhasznalok" },
     { number: "3.3.", title: "Felhasználói környezet", id: "felhasznaloikornyezet" },
     { number: "3.4.", title: "Illetékesek adatai", id: "illetekesekadatai" },
     { number: "3.5.", title: "Felhasználók adatai", id: "felhasznalokadatai" },
@@ -60,7 +60,7 @@ export default function Home() {
         </div>
         <div className="p-4 text-right mb-8">
           <h2>BEADÁS DÁTUMA</h2>
-          <h2>2024. október 10.</h2>
+          <h2>2024. október 13.</h2>
         </div>
 
         <div className="flex flex-col items-center justify-center mb-16">
@@ -171,7 +171,7 @@ export default function Home() {
           </li>
         </ul>
 
-        <h2 className="ml-8 text-xl font-bold text-sky-600 pt-6 inline-block">3. Érintettek és felhasználók, <h2 className="ml-8 text-xl font-bold text-sky-600 pt-6 inline-block">3.1 Az érintettek összefoglalása</h2>, <h2 className="ml-8 text-xl font-bold text-sky-600 pt-6 inline-block">3.2 Az felhasználók összefoglalása</h2></h2>
+        <h2 id="erintettekesfelhasznalok" className="ml-8 text-xl font-bold text-sky-600 pt-6 inline-block">3. Érintettek és felhasználók, 3.1 Az érintettek összefoglalása, 3.2 Az felhasználók összefoglalása</h2>
 
         
         <p className="pl-[5.3rem] pt-6">
@@ -211,11 +211,11 @@ export default function Home() {
         </p>
 
         
-        <h2 className="ml-8 text-xl font-bold text-sky-600 pt-6">3.3. Felhasználói környezet:</h2>
+        <h2 id="felhasznaloikornyezet" className="ml-8 text-xl font-bold text-sky-600 pt-6">3.3. Felhasználói környezet:</h2>
         <p className="pl-[5.3rem] pt-6">
           Az alkalmazás egy weboldalon keresztül érhető el, melyet egy felhasználó bármilyen böngészőből megnyithat, akár mobilról is. Mobil esetén ajánlott a "Learnify" mobilalkalmazás használata, mely segítségével könnyebben kizárhatóak egy böngésző zavaró részei.
         </p>
-        <h2 className="ml-8 text-xl font-bold text-sky-600 pt-6">3.4 Illetékesek adatai</h2>
+        <h2 id="illetekesekadatai" className="ml-8 text-xl font-bold text-sky-600 pt-6">3.4 Illetékesek adatai</h2>
 
         <p className="pl-[5.3rem] pt-6 font-bold">A platform fejlesztői esetén:</p>
 
@@ -299,7 +299,7 @@ export default function Home() {
 </ul>
 
 
-        <h2 className="ml-8 text-xl font-bold text-sky-600 pt-6">3.5 Felhasználók adatai</h2>
+        <h2 id="felhasznalokadatai" className="ml-8 text-xl font-bold text-sky-600 pt-6">3.5 Felhasználók adatai</h2>
         <ul className="pl-[6rem] pt-4 list-disc">
           <li className="mb-4">
             <span className="font-bold">Felhasználónév:</span>
@@ -355,7 +355,7 @@ export default function Home() {
             </p>
           </li>
         </ul>
-        <h2 className="ml-8 text-xl font-bold text-sky-600 pt-6">4. A végtermék áttekintése</h2>
+        <h2 id="vegtermekattekintes" className="ml-8 text-xl font-bold text-sky-600 pt-6">4. A végtermék áttekintése</h2>
         <p className="pl-[5.3rem] pt-6">
           A "Learnify" egy webalapú, gamifikációval támogatott e-learning platform, amely az online oktatás és képzés élményét teszi interaktívabbá és motiválóbbá. Az alkalmazás célja, hogy növelje a tanulók elköteleződését és javítsa a tanulási eredményeket különböző játékos elemek és ösztönző mechanizmusok beépítésével.
         </p>
@@ -406,9 +406,9 @@ export default function Home() {
           </li>
         </ul>
 
-        <h2 className="ml-8 text-xl font-bold text-sky-600 pt-6">4.1 A termék kapcsolatai</h2>
+        <h2 id="termekkapcsolatai" className="ml-8 text-xl font-bold text-sky-600 pt-6">4.1 A termék kapcsolatai</h2>
         <p className="pl-[5.3rem] pt-6">
-          A "Learnify" több funkcionális komponensből ll, amelyek egymással és más rendszerekkel is kapcsolatban állnak, hogy átfogó e-learning élményt biztosítsanak a felhasználóknak.
+          A "Learnify" több funkcionális komponensből áll, amelyek egymással és más rendszerekkel is kapcsolatban állnak, hogy átfogó e-learning élményt biztosítsanak a felhasználóknak.
         </p>
 
         <h3 className="ml-12 text-lg font-bold pt-4">Funkcionális komponensek:</h3>
@@ -464,72 +464,72 @@ export default function Home() {
           </li>
         </ul>
 
-        <h2 className="ml-8 text-xl font-bold text-sky-600 pt-6">4.2. A termék használatának előnyei:</h2>
+        <h2 id="termekhasznalatelonyei" className="ml-8 text-xl font-bold text-sky-600 pt-6">4.2. A termék használatának előnyei:</h2>
 
         
           <table className="ml-12 mt-6 w-[70%]">
             <thead>
               <tr>
-                <th className="border-2 border-gray-300 bg-gray-100 text-left px-4 py-2 text-gray-600 uppercase tracking-wider">
+                <th className="border border-black text-left px-4 py-2 uppercase tracking-wider">
                   A megrendelő haszna
                 </th>
-                <th className="border-2 border-gray-300 bg-gray-100 text-left px-4 py-2 text-gray-600 uppercase tracking-wider">
+                <th className="border border-black text-left px-4 py-2 uppercase tracking-wider">
                   Az ezt támogató rendszer jellemzői
                 </th>
               </tr>
             </thead>
             <tbody>
               <tr>
-                <td className="border-2 border-gray-300 px-4 py-2 text-gray-700">
-                A felhasználók motivációja nő a tanulás során
+              <td className="border border-black px-4 py-2">
+              A felhasználók motivációja nő a tanulás során
                 </td>
-                <td className="border-2 border-gray-300 px-4 py-2 text-gray-700">
+                <td className="border border-black px-4 py-2">
                 Gamifikációs elemek, mint az XP gyűjtés, küldetések és jutalmak segítik a folyamatos résztvételt és elköteleződést
                 </td>
               </tr>
               <tr>
-                <td className="border-2 border-gray-300 px-4 py-2 text-gray-700">
-                A tanulás rugalmasan követhető a saját tempóban
+              <td className="border border-black px-4 py-2">
+              A tanulás rugalmasan követhető a saját tempóban
                 </td>
-                <td className="border-2 border-gray-300 px-4 py-2 text-gray-700">
+                <td className="border border-black px-4 py-2">
                 A felhasználók saját maguk választhatják meg a tanulási ütemüket, és új kurzusokat oldhatnak fel a meglévők teljesítése alapján
                 </td>
               </tr>
               <tr>
-                <td className="border-2 border-gray-300 px-4 py-2 text-gray-700">
-                Költséghatékony tanulási lehetőségek bárki számára                </td>
-                <td className="border-2 border-gray-300 px-4 py-2 text-gray-700">
+              <td className="border border-black px-4 py-2">
+              Költséghatékony tanulási lehetőségek bárki számára                </td>
+                <td className="border border-black px-4 py-2">
                 Bárki tölthet fel kurzusokat, így az elérhető tananyag széleskörű, alacsony költséggel vagy akár ingyen is hozzáférhető                </td>
               </tr>
               <tr>
-                <td className="border-2 border-gray-300 px-4 py-2 text-gray-700">
-                Személyre szabott tanulási élmény                </td>
-                <td className="border-2 border-gray-300 px-4 py-2 text-gray-700">
+              <td className="border border-black px-4 py-2">
+              Személyre szabott tanulási élmény                </td>
+                <td className="border border-black px-4 py-2">
                 A felhasználók egyéni preferenciák és célok alapján választhatnak kurzusokat, és személyre szabott ajánlásokkal segíti őket a rendszer                </td>
               </tr>
               <tr>
-                <td className="border-2 border-gray-300 px-4 py-2 text-gray-700">
-                A felhasználó garantáltan a megfelelő kurzust tudja kiválasztani                </td>
-                <td className="border-2 border-gray-300 px-4 py-2 text-gray-700">
+              <td className="border border-black px-4 py-2">
+              A felhasználó garantáltan a megfelelő kurzust tudja kiválasztani                </td>
+                <td className="border border-black px-4 py-2">
                 Más felhasználók értékelhetnek kurzusokat és megjegyzéseket is fűzhetnek hozzájuk, így aki épp kurzust keres, az megbizonyosodhat róla, hogy a tananyag által átadott tudás megfelelő-e                </td>
               </tr>
               <tr>
-                <td className="border-2 border-gray-300 px-4 py-2 text-gray-700">
-                Könnyű tanulás bárhonnan, bármikor                </td>
-                <td className="border-2 border-gray-300 px-4 py-2 text-gray-700">
+              <td className="border border-black px-4 py-2">
+              Könnyű tanulás bárhonnan, bármikor                </td>
+                <td className="border border-black px-4 py-2">
                 A platform bármilyen eszközről elérhető, legyen az számítógép, tablet vagy okostelefon, így a felhasználók szabadon tanulhatnak, amikor csak idejük engedi                </td>
               </tr>
               <tr>
-                <td className="border-2 border-gray-300 px-4 py-2 text-gray-700">
-                Egyszerűsödik a naprakész tudás megszerzése                </td>
-                <td className="border-2 border-gray-300 px-4 py-2 text-gray-700">
+              <td className="border border-black px-4 py-2">
+              Egyszerűsödik a naprakész tudás megszerzése                </td>
+                <td className="border border-black px-4 py-2">
                 A kurzusokat is felhasználók készítik, így legtöbbször a tananyag naprakész, rendszeresen van frissítve, hogy a tanulók pozitív értékeléseket adjanak le az adott kurzusra.                </td>
               </tr>
             </tbody>
           </table>
         
 
-        <h2 className="ml-8 text-xl font-bold text-sky-600 pt-6">4.3. Feltételezések és függőségek:</h2>
+        <h2 id="feltetelezesekesfuggosegek" className="ml-8 text-xl font-bold text-sky-600 pt-6">4.3. Feltételezések és függőségek:</h2>
         <ul className="my-2 ml-8">
           <li className="my-2 ml-8 list-disc list-inside font-bold pt-6">Feltételezések:</li>
           <li className="my-2 ml-8 font-bold indent-8 pt-6"> ○ Folyamatos és stabil internetkapcsolat:</li>
@@ -781,7 +781,7 @@ export default function Home() {
     <p>Az értékelési rendszer lehetővé teszi a kvízek és tesztek automatikus kiértékelését, valamint visszajelzést ad a tanulóknak a teljesítményükről.</p>
   </li>
 </ul>
-        <h2 className="ml-8 text-xl font-bold text-sky-600 pt-6">6. Korlátozások</h2>
+        <h2 id="korlatozasok" className="ml-8 text-xl font-bold text-sky-600 pt-6">6. Korlátozások</h2>
 
         <p className="pl-[5.3rem] pt-6">
           A "Learnify" e-learning rendszer fejlesztése és működése során számos korlátozó tényezővel kell számolni, amelyek befolyásolják a projekt megvalósítását. Az alábbiakban felsoroljuk a legfontosabb korlátozásokat:
@@ -829,7 +829,7 @@ export default function Home() {
           Ezek a korlátozások figyelembevételre kerülnek a "Learnify" e-learning rendszer fejlesztése és üzemeltetése során, hogy a lehető legjobban alkalmazkodjunk a felhasználók és a jogszabályi előírások igényeihez.
         </p>
 
-        <h2 className="ml-8 text-xl font-bold  text-sky-600 pt-6">7. Minőségi elvárások:</h2>
+        <h2 id="minosegielvarasok" className="ml-8 text-xl font-bold  text-sky-600 pt-6">7. Minőségi elvárások:</h2>
         <ul>
           <li className="my-2 ml-8 font-bold indent-8 list-disc list-inside pt-6">Felhasználó-központú, intuitív felület:</li>
           <li className="pl-[5.3rem] pt-6">
@@ -867,189 +867,204 @@ export default function Home() {
           </li>
         </ul>
 
-        <h2 className="ml-8 text-xl font-bold  text-sky-600 pt-6">8. Dokumentációkkal kapcsolatos követelmények:</h2>
+        <h2 id="dokumentaciokovetelmenyek" className="ml-8 text-xl font-bold  text-sky-600 pt-6">8. Dokumentációkkal kapcsolatos követelmények:</h2>
 
-        <h2 className="ml-8 text-xl font-bold text-sky-600 pt-6">9. Kockázat lista:</h2>
+        <p className="pl-[5.3rem] pt-6">
+  A "Learnify" e-learning rendszer fejlesztése során különböző típusú dokumentációk elkészítése szükséges, amelyek segítik a felhasználók és a fejlesztőcsapat közötti kommunikációt, valamint biztosítják a rendszer zökkenőmentes működését. Az alábbiakban összefoglaljuk a dokumentációk típusait és médiaformátumait.
+</p>
+
+<ul className="pl-[5.3rem] pt-4 list-disc">
+  <li className="mb-4">
+    <span className="font-bold">Felhasználói kézikönyv</span>
+    <p className="mt-2"><span className="font-bold">Típus:</span> Írásos dokumentum</p>
+    <p><span className="font-bold">Média:</span> PDF, HTML</p>
+    <p><span className="font-bold">Leírás:</span> A felhasználói kézikönyv részletes útmutatást nyújt a rendszer használatáról, beleértve a funkciók ismertetését, a telepítési folyamatot, valamint a gyakori kérdések és problémák megoldását.</p>
+  </li>
+
+  <li className="mb-4">
+    <span className="font-bold">Üzemeltetési és karbantartási útmutató</span>
+    <p className="mt-2"><span className="font-bold">Típus:</span> Írásos dokumentum</p>
+    <p><span className="font-bold">Média:</span> PDF, DOCX</p>
+    <p><span className="font-bold">Leírás:</span> Ez a dokumentum tartalmazza a rendszer üzemeltetésével és karbantartásával kapcsolatos információkat, beleértve a rendszerbeállításokat, frissítési eljárásokat és a hibakezelési folyamatokat.</p>
+  </li>
+
+  <li className="mb-4">
+    <span className="font-bold">Technikai dokumentáció</span>
+    <p className="mt-2"><span className="font-bold">Típus:</span> Részletes technikai leírás</p>
+    <p><span className="font-bold">Média:</span> PDF, Markdown</p>
+    <p><span className="font-bold">Leírás:</span> A technikai dokumentáció részletesen bemutatja a rendszer architektúráját, a használt technológiákat, a kód struktúráját és a fejlesztési folyamatokat.</p>
+  </li>
+
+  <li className="mb-4">
+    <span className="font-bold">Tesztelési dokumentáció</span>
+    <p className="mt-2"><span className="font-bold">Típus:</span> Tesztelési jegyzőkönyvek</p>
+    <p><span className="font-bold">Média:</span> PDF, XLSX</p>
+    <p><span className="font-bold">Leírás:</span> A tesztelési dokumentáció tartalmazza a tesztelési terveket, teszt eseteket, és a tesztelés eredményeit, amelyek segítik a rendszer minőségének ellenőrzését.</p>
+  </li>
+
+  <li className="mb-4">
+    <span className="font-bold">Oktatási anyagok</span>
+    <p className="mt-2"><span className="font-bold">Típus:</span> Képzési anyagok</p>
+    <p><span className="font-bold">Média:</span> PPTX, videó, online kurzus (pl. Moodle)</p>
+    <p><span className="font-bold">Leírás:</span> Az oktatási anyagok célja, hogy támogassák a felhasználókat a rendszer használatában, és bemutassák a legfontosabb funkciókat. Ezek tartalmazhatnak prezentációkat, videókat és online tanfolyamokat.</p>
+  </li>
+
+  <li className="mb-4">
+    <span className="font-bold">Visszajelzési űrlapok</span>
+    <p className="mt-2"><span className="font-bold">Típus:</span> Interaktív űrlapok</p>
+    <p><span className="font-bold">Média:</span> HTML, Google Form</p>
+    <p><span className="font-bold">Leírás:</span> A visszajelzési űrlapok lehetővé teszik a felhasználók számára, hogy megosszanak véleményeket és javaslatokat a rendszer használatával kapcsolatban, amelyeket a fejlesztési folyamat során figyelembe kell venni.</p>
+  </li>
+
+  <li className="mb-4">
+    <span className="font-bold">Támogatási dokumentáció</span>
+    <p className="mt-2"><span className="font-bold">Típus:</span> GYIK és technikai támogatás</p>
+    <p><span className="font-bold">Média:</span> PDF, weboldal</p>
+    <p><span className="font-bold">Leírás:</span> A támogatási dokumentáció tartalmazza a gyakran ismételt kérdéseket (GYIK), technikai hibaelhárítási útmutatókat, és a felhasználók számára elérhető támogatási lehetőségeket.</p>
+  </li>
+</ul>
+
+        <h2 id="kockazatlista" className="ml-8 text-xl font-bold text-sky-600 pt-6">9. Kockázat lista:</h2>
         <ul>
-          <li className="my-2 ml-8 font-bold indent-8 list-disc list-inside pt-6">Technológiai kihívások és integrációs problémák: </li>
-          <li className="pl-[5.3rem] font-bold pt-6">
-          ○ Leírás: {" "}
-          <span className="font-normal">
-            A projekt során számos új technológiai megoldást alkalmazunk, ideértve a harmadik féltől származó API-kat, cloud szolgáltatásokat és különböző technológiai stack-eket (pl. frontend-backend integráció). Az integráció során felmerülhetnek kompatibilitási problémák, késleltetések, vagy hibák, amelyek akadályozzák a rendszer zavartalan működését.
-          </span>
+          <li className="my-2 ml-8 font-bold indent-8 pt-6 list-disc list-inside">Technológiai kihívások és integrációs problémák:</li>
+          <li className="pl-[4.8rem]">
+          A projekt során számos új technológiai megoldást alkalmazunk, ideértve a harmadik féltől származó API-kat, cloud szolgáltatásokat és különböző technológiai stack-eket (pl. frontend-backend integráció). Az integráció során felmerülhetnek kompatibilitási problémák, késleltetések, vagy hibák, amelyek akadályozzák a rendszer zavartalan működését.
           </li>
 
-          <li className="pl-[5.3rem] font-bold">
-          ○ Kockázat mértéke: {" "}
-          <span className="font-normal">
-          Magas.
-          </span>
-          </li>
-
-          <li className="pl-[5.3rem] font-bold">
-          ○ Enyhítő intézkedés: {" "}
-          <span className="font-normal">
-          Részletes adatvédelmi irányelvek kidolgozása, jogi tanácsadás igénybevétele, valamint a felhasználói beleegyezések és adatkezelési eljárások auditálása.
-          </span>
-          </li>
-
-          <li className="my-2 ml-8 font-bold indent-8 list-disc list-inside pt-6">Erőforrás- és kapacitáshiány: </li>
-          <li className="pl-[5.3rem] font-bold pt-6">
-          ○ Leírás: {" "}
-          <span className="font-normal">
+          <li className="my-2 ml-8 font-bold indent-8 pt-6 list-disc list-inside">Erőforrás- és kapacitáshiány:</li>
+          <li className="pl-[4.8rem]">
           A projekt sikeres megvalósításához szükséges erőforrások, mint a megfelelő mennyiségű és képzett fejlesztők, tervezők és projektmenedzserek rendelkezésre állása elengedhetetlen. Az alulbecsült erőforrások vagy a túlterhelt csapatok kockázatot jelentenek a projekt késedelmeire és minőségi problémáira.
-          </span>
           </li>
 
-          <li className="pl-[5.3rem] font-bold">
-          ○ Kockázat mértéke: {" "}
-          <span className="font-normal">
-          Magas.
-          </span>
-          </li>
-
-          <li className="pl-[5.3rem] font-bold">
-          ○ Enyhítő intézkedés: {" "}
-          <span className="font-normal">
-          Gondos erőforrás-tervezés, túlterhelés elkerülése, és outsourcing lehetőségének vizsgálata külső szakemberek bevonása érdekében.
-          </span>
-          </li>
-
-          <li className="my-2 ml-8 font-bold indent-8 list-disc list-inside pt-6">Jogi és adatvédelmi szabályozásoknak való nem megfelelés:</li>
-          <li className="pl-[5.3rem] font-bold pt-6">
-          ○ Leírás: {" "}
-          <span className="font-normal">
+          <li className="my-2 ml-8 font-bold indent-8 pt-6 list-disc list-inside">Jogi és adatvédelmi szabályozásoknak való nem megfelelés:</li>
+          <li className="pl-[4.8rem]">
           A platform a felhasználói adatokat kezeli, így kiemelten fontos a jogszabályoknak való megfelelés, különösen a GDPR és egyéb adatvédelmi rendeletek tekintetében. A nem megfelelő adatkezelés komoly pénzbírságokat és reputációs veszteségeket eredményezhet.
-          </span>
           </li>
 
-          <li className="pl-[5.3rem] font-bold">
-          ○ Kockázat mértéke: {" "}
-          <span className="font-normal">
-          Magas.
-          </span>
-          </li>
-
-          <li className="pl-[5.3rem] font-bold">
-          ○ Enyhítő intézkedés: {" "}
-          <span className="font-normal">
-          Részletes adatvédelmi irányelvek kidolgozása, jogi tanácsadás igénybevétele, valamint a felhasználói beleegyezések és adatkezelési eljárások auditálása.
-          </span>
-          </li>
-
-          <li className="my-2 ml-8 font-bold indent-8 list-disc list-inside pt-6">Biztonsági fenyegetések és adatlopás:</li>
-          <li className="pl-[5.3rem] font-bold pt-6">
-          ○ Leírás: {" "}
-          <span className="font-normal">
+          <li className="my-2 ml-8 font-bold indent-8 pt-6 list-disc list-inside">Biztonsági fenyegetések és adatlopás:</li>
+          <li className="pl-[4.8rem]">
           Mivel a platform pénzügyi tranzakciókat is kezel, így különösen ki van téve a kibertámadásoknak, mint például adathalászat, DDoS támadások vagy rendszervisszaélések. Az ilyen jellegű támadások adatszivárgáshoz, pénzügyi veszteségekhez, illetve a felhasználók bizalmának elvesztéséhez vezethetnek.
-          </span>
           </li>
 
-          <li className="pl-[5.3rem] font-bold">
-          ○ Kockázat mértéke: {" "}
-          <span className="font-normal">
-          Magas.
-          </span>
-          </li>
-
-          <li className="pl-[5.3rem] font-bold">
-          ○ Enyhítő intézkedés: {" "}
-          <span className="font-normal">
-          Erős biztonsági protokollok alkalmazása (pl. SSL/TLS titkosítás, kétlépcsős azonosítás), rendszeres biztonsági auditok és penetration tesztek végzése, valamint a legújabb védelmi technológiák bevezetése.
-          </span>
-          </li>
-
-          <li className="my-2 ml-8 font-bold indent-8 list-disc list-inside pt-6">Felhasználói elégedetlenség:</li>
-          <li className="pl-[5.3rem] font-bold pt-6">
-          ○ Leírás: {" "}
-          <span className="font-normal">
+          <li className="my-2 ml-8 font-bold indent-8 pt-6 list-disc list-inside">Felhasználói elégedetlenség:</li>
+          <li className="pl-[4.8rem]">
           A felhasználók részéről jelentkező elégedetlenség – legyen szó az interfész bonyolultságáról, lassú betöltési időkről, vagy hiányzó funkciókról – komoly hatással lehet a platform sikerére és növekedési ütemére. Az elégedetlen felhasználók negatív visszajelzései csökkenthetik az új felhasználók regisztrációját, illetve az aktív felhasználói bázis elpártolását okozhatják.
-          </span>
           </li>
 
-          <li className="pl-[5.3rem] font-bold">
-          ○ Kockázat mértéke: {" "}
-          <span className="font-normal">
-          Közepes.
-          </span>
-          </li>
-
-          <li className="pl-[5.3rem] font-bold">
-          ○ Enyhítő intézkedés: {" "}
-          <span className="font-normal">
-          Rendszeres felhasználói felmérések készítése, visszajelzések gyűjtése és azok gyors implementálása a felhasználói élmény folyamatos javítása érdekében. Gamifikációs elemek és interakciós lehetőségek növelése a felhasználói elkötelezettség érdekében.
-          </span>
-          </li>
-
-          <li className="my-2 ml-8 font-bold indent-8 list-disc list-inside pt-6">Projekt késedelmek:</li>
-          <li className="pl-[5.3rem] font-bold pt-6">
-          ○ Leírás: {" "}
-          <span className="font-normal">
+          <li className="my-2 ml-8 font-bold indent-8 pt-6 list-disc list-inside">Projekt késedelmek:</li>
+          <li className="pl-[4.8rem]">
           A projekt mérföldkövei közötti csúszások kockázata folyamatosan fennáll, különösen, ha az időbeli tervezés nem megfelelő. Ezek a késedelmek további erőforrásokat igényelnek és negatív hatással lehetnek a költségvetésre is.
-          </span>
           </li>
 
-          <li className="pl-[5.3rem] font-bold">
-          ○ Kockázat mértéke: {" "}
-          <span className="font-normal">
-          Közepes.
-          </span>
-          </li>
-
-          <li className="pl-[5.3rem] font-bold">
-          ○ Enyhítő intézkedés: {" "}
-          <span className="font-normal">
-          Rendszeres állapotjelentések készítése, projektmenedzsment eszközök használata (pl. Jira, Trello), és a rugalmasság biztosítása az ütemezésben.
-          </span>
-          </li>
-
-          
-          <li className="my-2 ml-8 font-bold indent-8 list-disc list-inside pt-6">Pénzügyi instabilitás:</li>
-          <li className="pl-[5.3rem] font-bold pt-6">
-          ○ Leírás: {" "}
-          <span className="font-normal">
+          <li className="my-2 ml-8 font-bold indent-8 pt-6 list-disc list-inside">Pénzügyi instabilitás:</li>
+          <li className="pl-[4.8rem]">
           A projekt költségvetésének alulbecslése, illetve a váratlan kiadások komoly problémákat okozhatnak a projekt későbbi szakaszaiban. Pénzügyi instabilitás miatt megszakadhat a fejlesztés, vagy csökkenthetik a minőségi követelményeket.
-          </span>
           </li>
 
-          <li className="pl-[5.3rem] font-bold">
-          ○ Kockázat mértéke: {" "}
-          <span className="font-normal">
-          Magas.
-          </span>
-          </li>
-
-          <li className="pl-[5.3rem] font-bold">
-          ○ Enyhítő intézkedés: {" "}
-          <span className="font-normal">
-          Részletes költségvetési tervezés és pénzügyi kontroll bevezetése, tartalék források biztosítása a váratlan kiadásokra.
-          </span>
-          </li>
-
-          
-          <li className="my-2 ml-8 font-bold indent-8 list-disc list-inside pt-6">Új technológiai trendek vagy változások figyelmen kívül hagyása:</li>
-          <li className="pl-[5.3rem] font-bold pt-6">
-          ○ Leírás: {" "}
-          <span className="font-normal">
+          <li className="my-2 ml-8 font-bold indent-8 pt-6 list-disc list-inside"> Új technológiai trendek vagy változások figyelmen kívül hagyása:</li>
+          <li className="pl-[4.8rem]">
           Az iparág gyorsan fejlődik, így a legújabb technológiai trendek figyelmen kívül hagyása lemaradáshoz vezethet a versenytársakhoz képest. Ez különösen igaz a felhő alapú technológiák, a mesterséges intelligencia, valamint az adattudomány terén.
-          </span>
-          </li>
-
-          <li className="pl-[5.3rem] font-bold">
-          ○ Kockázat mértéke: {" "}
-          <span className="font-normal">
-          Alacsony-közepes.
-          </span>
-          </li>
-
-          <li className="pl-[5.3rem] font-bold">
-          ○ Enyhítő intézkedés: {" "}
-          <span className="font-normal">
-          Folyamatos piac- és technológiai trendek monitorozása, valamint a csapat rendszeres képzése a legújabb eszközökről és technikákról.
-          </span>
           </li>
         </ul>
-        <h2 className="ml-8 text-xl font-bold  text-sky-600 pt-6">10. Szótár:</h2>
+        <h2 id="szotar" className="ml-8 text-xl font-bold  text-sky-600 pt-6">10. Szótár:</h2>
+
+        <ul className="pl-[5.3rem] pt-4 list-disc">
+  <li className="mb-4">
+    <span className="font-bold">E-learning:</span>
+    <p className="mt-2">Elektronikus tanulás, amely számítógépes hálózaton keresztül történő távoktatást jelent.</p>
+  </li>
+
+  <li className="mb-4">
+    <span className="font-bold">Gamifikáció:</span>
+    <p className="mt-2">Játékelemek és játéktervezési technikák alkalmazása nem játékos környezetben, például az oktatásban, a felhasználói élmény és az elkötelezettség növelése érdekében.</p>
+  </li>
+
+  <li className="mb-4">
+    <span className="font-bold">UX (User Experience):</span>
+    <p className="mt-2">Felhasználói élmény, amely a felhasználó és egy termék, rendszer vagy szolgáltatás közötti interakció minden aspektusát magában foglalja.</p>
+  </li>
+
+  <li className="mb-4">
+    <span className="font-bold">API (Application Programming Interface):</span>
+    <p className="mt-2">Alkalmazásprogramozási felület, amely lehetővé teszi különböző szoftverek közötti kommunikációt és adatcserét.</p>
+  </li>
+
+  <li className="mb-4">
+    <span className="font-bold">GDPR (General Data Protection Regulation):</span>
+    <p className="mt-2">Az Európai Unió általános adatvédelmi rendelete, amely szabályozza a személyes adatok kezelését és védelmét.</p>
+  </li>
+
+  <li className="mb-4">
+    <span className="font-bold">SSL/TLS:</span>
+    <p className="mt-2">Secure Sockets Layer/Transport Layer Security, biztonsági protokollok, amelyek titkosított kapcsolatot biztosítanak az interneten keresztül.</p>
+  </li>
+
+  <li className="mb-4">
+    <span className="font-bold">Skálázhatóság:</span>
+    <p className="mt-2">Egy rendszer azon képessége, hogy növekvő terhelés mellett is hatékonyan működjön és bővíthető legyen.</p>
+  </li>
+
+  <li className="mb-4">
+    <span className="font-bold">Frontend:</span>
+    <p className="mt-2">A szoftver azon része, amellyel a felhasználó közvetlenül interakcióba lép, általában a felhasználói felületet jelenti.</p>
+  </li>
+
+  <li className="mb-4">
+    <span className="font-bold">Backend:</span>
+    <p className="mt-2">A szoftver háttérben működő része, amely az adatfeldolgozást és -tárolást végzi, és a frontendnek szolgáltatja az adatokat.</p>
+  </li>
+
+  <li className="mb-4">
+    <span className="font-bold">DDoS (Distributed Denial of Service):</span>
+    <p className="mt-2">Elosztott szolgáltatásmegtagadással járó támadás, amely egy rendszer túlterhelésével próbálja megakadályozni annak normál működését.</p>
+  </li>
+
+  <li className="mb-4">
+    <span className="font-bold">Reszponzív dizájn:</span>
+    <p className="mt-2">Olyan webtervezési megközelítés, amely lehetővé teszi, hogy a weboldal vagy alkalmazás automatikusan alkalmazkodjon a különböző képernyőméretekhez és eszközökhöz.</p>
+  </li>
+
+  <li className="mb-4">
+    <span className="font-bold">LMS (Learning Management System):</span>
+    <p className="mt-2">Tanulásmenedzsment rendszer, amely az oktatási anyagok kezelésére, kurzusok szervezésére és a tanulók előrehaladásának nyomon követésére szolgál.</p>
+  </li>
+
+  <li className="mb-4">
+    <span className="font-bold">Mesterséges intelligencia (AI):</span>
+    <p className="mt-2">Olyan számítógépes rendszerek és algoritmusok összessége, amelyek képesek emberi intelligenciát igénylő feladatok elvégzésére, például tanulásra, problémamegoldásra és döntéshozatalra.</p>
+  </li>
+
+  <li className="mb-4">
+    <span className="font-bold">Felhő alapú szolgáltatások:</span>
+    <p className="mt-2">Interneten keresztül elérhető számítástechnikai erőforrások és szolgáltatások, amelyek lehetővé teszik az adatok és alkalmazások távoli tárolását, feldolgozását és elérését.</p>
+  </li>
+
+  <li className="mb-4">
+    <span className="font-bold">Adaptív tanulás:</span>
+    <p className="mt-2">Olyan oktatási módszer, amely a tanuló egyéni szükségleteihez és teljesítményéhez igazítja a tananyagot és a tanulási folyamatot.</p>
+  </li>
+
+  <li className="mb-4">
+    <span className="font-bold">Interaktív tartalom:</span>
+    <p className="mt-2">Olyan digitális tananyag, amely aktív részvételt igényel a felhasználótól, például kvízek, szimulációk vagy interaktív videók formájában.</p>
+  </li>
+
+  <li className="mb-4">
+    <span className="font-bold">Kollaboratív tanulás:</span>
+    <p className="mt-2">Olyan tanulási forma, ahol a résztvevők együttműködnek, megosztják ismereteiket és közösen oldanak meg feladatokat a hatékonyabb tudáselsajátítás érdekében.</p>
+  </li>
+
+  <li className="mb-4">
+    <span className="font-bold">Mobilalkalmazás:</span>
+    <p className="mt-2">Okostelefonokra vagy táblagépekre tervezett szoftveralkalmazás, amely lehetővé teszi a felhasználók számára a szolgáltatások elérését mobil eszközökön keresztül.</p>
+  </li>
+
+  <li className="mb-4">
+    <span className="font-bold">Felhasználói visszajelzés:</span>
+    <p className="mt-2">A felhasználóktól származó vélemények, javaslatok és értékelések, amelyek segítenek a termék vagy szolgáltatás fejlesztésében és javításában.</p>
+  </li>
+</ul>
+
       </div>
     </>
   );
