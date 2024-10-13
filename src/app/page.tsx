@@ -39,7 +39,7 @@ export default function Home() {
         <div className="p-4">
           <h1 className="text-xl">Csoport neve: Alt+F4 Alakulat - Az Azonnali Kilépők</h1>
           <h1 className="text-xl">Feladat sorszáma: 2</h1>
-          <h1 className="text-xl">Feladat címe: H1</h1>
+          <h1 className="text-xl">Feladat címe: H2</h1>
         </div>
         <div className="flex-grow flex flex-col items-center justify-center">
           <h1 className="text-5xl mb-8 py-8">Vízió dokumentum</h1>
